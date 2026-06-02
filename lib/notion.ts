@@ -73,6 +73,6 @@ export async function createQuestionRow(data: QuestionRowData): Promise<void> {
 
   await notion.pages.create({
     parent: { database_id: dbId },
-    properties,
+    properties as any,
   });
 }
