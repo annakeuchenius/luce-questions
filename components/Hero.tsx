@@ -1,9 +1,18 @@
 "use client";
 
 import { useTranslation } from "react-i18next";
+import { useState, useEffect } from "react";
 
 export default function Hero() {
   const { t } = useTranslation();
+  const [questionCount, setQuestionCount] = useState<number | null>(null);
+
+  useEffect(() => {
+    fetch("/api/question-count")
+      .then((r) => r.json())
+      .then((d) => { if (d.count !== null) setQuestionCount(d.count); })
+      .catch(() => {});
+  }, []);
   const headline: string = t("hero.headline");
   const emphasis: string = t("hero.headlineEmphasis");
 
@@ -104,7 +113,7 @@ export default function Hero() {
       >
         {[
           { value: t("hero.stat1Value"), label: t("hero.stat1Label") },
-          { value: t("hero.stat2Value"), label: t("hero.stat2Label") },
+          { value: questionCount !== null ? String(questionCount) : "…", label: t("hero.statQuestionsLabel") },
           { value: t("hero.stat3Value"), label: t("hero.stat3Label") },
         ].map((stat, i) => (
           <div

@@ -27,6 +27,29 @@ export interface QuestionRowData {
   submissionId: string;
 }
 
+export async function getQuestionCount(): Promise<number> {
+  const notion = getClient();
+  const dbId = process.env.NOTION_DATABASE_ID;
+  if (!dbId) throw new Error("NOTION_DATABASE_ID is not set");
+
+  let count = 0;
+  let cursor: string | undefined = undefined;
+
+  do {
+    const response = await notion.databases.query({
+      database_id: dbId,
+      page_size: 100,
+      start_cursor: cursor,
+      filter_properties: [],
+    } as Parameters<typeof notion.databases.query>[0]);
+
+    count += response.results.length;
+    cursor = response.has_more ? (response.next_cursor ?? undefined) : undefined;
+  } while (cursor);
+
+  return count;
+}
+
 export async function createQuestionRow(data: QuestionRowData): Promise<void> {
   const notion = getClient();
   const dbId = process.env.NOTION_DATABASE_ID;
