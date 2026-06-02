@@ -9,6 +9,7 @@ export async function POST(req: NextRequest) {
     roleCustom?: string;
     country?: string;
     preferredLanguage?: string;
+    honeypot?: string;
     firstName?: string;
     lastName?: string;
     anythingElse?: string;
@@ -30,6 +31,7 @@ export async function POST(req: NextRequest) {
     roleCustom = "",
     country = "",
     preferredLanguage = "",
+    honeypot = "",
     firstName = "",
     lastName = "",
     anythingElse = "",
@@ -38,6 +40,10 @@ export async function POST(req: NextRequest) {
     uiLanguage = "en",
     consentGiven = false,
   } = body;
+
+  if (honeypot) {
+    return NextResponse.json({ success: true });
+  }
 
   if (!consentGiven) {
     return NextResponse.json({ error: "Consent is required" }, { status: 400 });

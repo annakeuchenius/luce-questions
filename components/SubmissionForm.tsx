@@ -63,6 +63,7 @@ export default function SubmissionForm() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
+  const [honeypot, setHoneypot] = useState("");
   const [anythingElse, setAnythingElse] = useState("");
   const [mailingList, setMailingList] = useState(false);
   const [consent, setConsent] = useState(false);
@@ -121,6 +122,7 @@ export default function SubmissionForm() {
           firstName,
           lastName,
           email,
+          honeypot,
           anythingElse,
           mailingListOptIn: mailingList,
           uiLanguage: i18n.language,
@@ -252,6 +254,16 @@ export default function SubmissionForm() {
         </div>
 
         <form onSubmit={handleSubmit} noValidate>
+          {/* Honeypot — hidden from real users, bots fill it and get rejected */}
+          <input
+            type="text"
+            value={honeypot}
+            onChange={(e) => setHoneypot(e.target.value)}
+            tabIndex={-1}
+            autoComplete="off"
+            aria-hidden="true"
+            style={{ position: "absolute", left: "-9999px", width: "1px", height: "1px", opacity: 0 }}
+          />
           {/* Row 1: Role + Country */}
           <div
             style={{
