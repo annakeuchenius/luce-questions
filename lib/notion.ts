@@ -20,6 +20,7 @@ export interface QuestionRowData {
   uiLanguage: string;
   firstName: string;
   lastName: string;
+  anythingElse: string;
   email: string;
   mailingListOptIn: boolean;
   submittedAt: string;
@@ -75,6 +76,11 @@ export async function createQuestionRow(data: QuestionRowData): Promise<void> {
   }
   if (data.email) {
     properties["Email"] = { email: data.email };
+  }
+  if (data.anythingElse) {
+    properties["Anything else"] = {
+      rich_text: [{ text: { content: data.anythingElse } }],
+    };
   }
 
   await notion.pages.create({

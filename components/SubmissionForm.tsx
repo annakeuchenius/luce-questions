@@ -63,6 +63,7 @@ export default function SubmissionForm() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
+  const [anythingElse, setAnythingElse] = useState("");
   const [mailingList, setMailingList] = useState(false);
   const [consent, setConsent] = useState(false);
   const [submitting, setSubmitting] = useState(false);
@@ -120,6 +121,7 @@ export default function SubmissionForm() {
           firstName,
           lastName,
           email,
+          anythingElse,
           mailingListOptIn: mailingList,
           uiLanguage: i18n.language,
           consentGiven: consent,
@@ -389,6 +391,26 @@ export default function SubmissionForm() {
           {/* Questions */}
           <div style={{ marginBottom: "28px" }}>
             <QuestionInput questions={questions} onChange={setQuestions} />
+          </div>
+
+          {/* Anything else */}
+          <div style={{ marginBottom: "28px" }}>
+            <Field label={t("form.anythingElseLabel")}>
+              <textarea
+                value={anythingElse}
+                onChange={(e) => setAnythingElse(e.target.value)}
+                placeholder={t("form.anythingElsePlaceholder")}
+                rows={3}
+                style={{
+                  ...inputStyle,
+                  resize: "vertical",
+                  fontFamily: "inherit",
+                  lineHeight: 1.6,
+                }}
+                onFocus={(e) => { e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)"; }}
+                onBlur={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
+              />
+            </Field>
           </div>
 
           {/* Mailing list */}

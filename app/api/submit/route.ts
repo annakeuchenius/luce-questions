@@ -11,6 +11,7 @@ export async function POST(req: NextRequest) {
     preferredLanguage?: string;
     firstName?: string;
     lastName?: string;
+    anythingElse?: string;
     email?: string;
     mailingListOptIn?: boolean;
     uiLanguage?: string;
@@ -31,6 +32,7 @@ export async function POST(req: NextRequest) {
     preferredLanguage = "",
     firstName = "",
     lastName = "",
+    anythingElse = "",
     email = "",
     mailingListOptIn = false,
     uiLanguage = "en",
@@ -65,6 +67,7 @@ export async function POST(req: NextRequest) {
           uiLanguage: uiLanguage ?? "en",
           firstName: firstName ?? "",
           lastName: lastName ?? "",
+          anythingElse: anythingElse ?? "",
           email: email ?? "",
           mailingListOptIn: mailingListOptIn ?? false,
           submittedAt,

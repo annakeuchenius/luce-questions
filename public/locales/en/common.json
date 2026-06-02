@@ -75,6 +75,8 @@
     "lastNamePlaceholder": "Last name",
     "emailLabel": "Email (optional)",
     "emailPlaceholder": "your@email.com",
+    "anythingElseLabel": "Anything you would like us to know?",
+    "anythingElsePlaceholder": "Feel free to share any context, thoughts, or anything else on your mind…",
     "questionsLabel": "Your questions",
     "questionsHint": "Ask in general terms only.",
     "questionsHintWarning": "Do not include personal medical details, diagnoses, or identifying information.",
