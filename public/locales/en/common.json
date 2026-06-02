@@ -69,8 +69,10 @@
       "sv": "Swedish",
       "other": "Other"
     },
-    "nameLabel": "Name (optional)",
-    "namePlaceholder": "First name only is fine",
+    "firstNameLabel": "First name (optional)",
+    "firstNamePlaceholder": "First name",
+    "lastNameLabel": "Last name (optional)",
+    "lastNamePlaceholder": "Last name",
     "emailLabel": "Email (optional)",
     "emailPlaceholder": "your@email.com",
     "questionsLabel": "Your questions",

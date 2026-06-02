@@ -9,7 +9,8 @@ export async function POST(req: NextRequest) {
     roleCustom?: string;
     country?: string;
     preferredLanguage?: string;
-    name?: string;
+    firstName?: string;
+    lastName?: string;
     email?: string;
     mailingListOptIn?: boolean;
     uiLanguage?: string;
@@ -28,7 +29,8 @@ export async function POST(req: NextRequest) {
     roleCustom = "",
     country = "",
     preferredLanguage = "",
-    name = "",
+    firstName = "",
+    lastName = "",
     email = "",
     mailingListOptIn = false,
     uiLanguage = "en",
@@ -61,7 +63,8 @@ export async function POST(req: NextRequest) {
           country: country ?? "",
           preferredLanguage: preferredLanguage ?? "",
           uiLanguage: uiLanguage ?? "en",
-          name: name ?? "",
+          firstName: firstName ?? "",
+          lastName: lastName ?? "",
           email: email ?? "",
           mailingListOptIn: mailingListOptIn ?? false,
           submittedAt,

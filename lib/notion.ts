@@ -18,7 +18,8 @@ export interface QuestionRowData {
   country: string;
   preferredLanguage: string;
   uiLanguage: string;
-  name: string;
+  firstName: string;
+  lastName: string;
   email: string;
   mailingListOptIn: boolean;
   submittedAt: string;
@@ -62,9 +63,14 @@ export async function createQuestionRow(data: QuestionRowData): Promise<void> {
       rich_text: [{ text: { content: data.roleCustom } }],
     };
   }
-  if (data.name) {
-    properties["Name"] = {
-      rich_text: [{ text: { content: data.name } }],
+  if (data.firstName) {
+    properties["First name"] = {
+      rich_text: [{ text: { content: data.firstName } }],
+    };
+  }
+  if (data.lastName) {
+    properties["Last name"] = {
+      rich_text: [{ text: { content: data.lastName } }],
     };
   }
   if (data.email) {

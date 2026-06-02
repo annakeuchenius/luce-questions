@@ -60,7 +60,8 @@ export default function SubmissionForm() {
   const [roleCustom, setRoleCustom] = useState("");
   const [country, setCountry] = useState("");
   const [preferredLanguage, setPreferredLanguage] = useState("");
-  const [name, setName] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [mailingList, setMailingList] = useState(false);
   const [consent, setConsent] = useState(false);
@@ -116,7 +117,8 @@ export default function SubmissionForm() {
           roleCustom,
           country,
           preferredLanguage,
-          name,
+          firstName,
+          lastName,
           email,
           mailingListOptIn: mailingList,
           uiLanguage: i18n.language,
@@ -303,15 +305,8 @@ export default function SubmissionForm() {
             </Field>
           </div>
 
-          {/* Row 2: Preferred language + Name */}
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              gap: "16px",
-              marginBottom: "16px",
-            }}
-          >
+          {/* Row 2: Preferred language */}
+          <div style={{ marginBottom: "16px" }}>
             <Field label={t("form.languageLabel")}>
               <select
                 value={preferredLanguage}
@@ -332,13 +327,34 @@ export default function SubmissionForm() {
                 <option value="Other" style={{ background: "#0f1f3a" }}>{t("form.languageOptions.other")}</option>
               </select>
             </Field>
+          </div>
 
-            <Field label={t("form.nameLabel")}>
+          {/* Row 3: First name + Last name */}
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: "16px",
+              marginBottom: "16px",
+            }}
+          >
+            <Field label={t("form.firstNameLabel")}>
               <input
                 type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                placeholder={t("form.namePlaceholder")}
+                value={firstName}
+                onChange={(e) => setFirstName(e.target.value)}
+                placeholder={t("form.firstNamePlaceholder")}
+                style={inputStyle}
+                onFocus={(e) => { e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)"; }}
+                onBlur={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
+              />
+            </Field>
+            <Field label={t("form.lastNameLabel")}>
+              <input
+                type="text"
+                value={lastName}
+                onChange={(e) => setLastName(e.target.value)}
+                placeholder={t("form.lastNamePlaceholder")}
                 style={inputStyle}
                 onFocus={(e) => { e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)"; }}
                 onBlur={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
