@@ -35,22 +35,32 @@ export default function LanguageSwitcher() {
       <button
         onClick={() => setOpen((o) => !o)}
         style={{
-          background: "none",
-          border: "1px solid rgba(255,255,255,0.15)",
-          color: "rgba(255,255,255,0.72)",
-          padding: "6px 14px",
-          fontSize: "13px",
-          borderRadius: "3px",
+          background: open ? "rgba(240,192,64,0.12)" : "rgba(255,255,255,0.06)",
+          border: "1px solid rgba(240,192,64,0.4)",
+          color: "#f0c040",
+          padding: "8px 18px",
+          fontSize: "14px",
+          fontWeight: 500,
+          borderRadius: "4px",
           cursor: "pointer",
           display: "flex",
           alignItems: "center",
-          gap: "6px",
+          gap: "8px",
+          letterSpacing: "0.02em",
+          transition: "background 0.15s, border-color 0.15s",
+        }}
+        onMouseEnter={(e) => {
+          (e.currentTarget as HTMLElement).style.background = "rgba(240,192,64,0.15)";
+        }}
+        onMouseLeave={(e) => {
+          (e.currentTarget as HTMLElement).style.background = open ? "rgba(240,192,64,0.12)" : "rgba(255,255,255,0.06)";
         }}
         aria-haspopup="listbox"
         aria-expanded={open}
       >
+        <span style={{ fontSize: "16px" }}>🌐</span>
         {current.label}
-        <span style={{ fontSize: "10px", opacity: 0.6 }}>▼</span>
+        <span style={{ fontSize: "10px", opacity: 0.7 }}>▼</span>
       </button>
       {open && (
         <ul
@@ -62,11 +72,13 @@ export default function LanguageSwitcher() {
             background: "#0f1f3a",
             border: "1px solid rgba(255,255,255,0.15)",
             borderRadius: "3px",
-            minWidth: "130px",
+            minWidth: "160px",
             margin: 0,
             padding: "4px 0",
             listStyle: "none",
             zIndex: 100,
+            maxHeight: "320px",
+            overflowY: "auto",
           }}
         >
           {SUPPORTED_LANGUAGES.map((lang) => (
