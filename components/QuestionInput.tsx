@@ -62,8 +62,8 @@ export default function QuestionInput({ questions, onChange }: Props) {
           placeholder={t("form.questionPlaceholder")}
           style={{
             flex: 1,
-            background: "rgba(255,255,255,0.05)",
-            border: "1px solid rgba(255,255,255,0.15)",
+            background: "rgba(240,192,64,0.12)",
+            border: "1px solid rgba(240,192,64,0.5)",
             borderRadius: "3px",
             padding: "10px 14px",
             fontSize: "14px",
@@ -71,10 +71,12 @@ export default function QuestionInput({ questions, onChange }: Props) {
             outline: "none",
           }}
           onFocus={(e) => {
-            e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)";
+            e.currentTarget.style.background = "rgba(240,192,64,0.2)";
+            e.currentTarget.style.borderColor = "#f0c040";
           }}
           onBlur={(e) => {
-            e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)";
+            e.currentTarget.style.background = "rgba(240,192,64,0.12)";
+            e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)";
           }}
         />
         <button
