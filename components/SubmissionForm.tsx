@@ -92,6 +92,12 @@ export default function SubmissionForm() {
     e.preventDefault();
     if (!canSubmit) return;
 
+    if (mailingList && !email.trim()) {
+      setError(t("form.validationEmailRequired"));
+      focusEmail();
+      return;
+    }
+
     if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
       setError(t("form.validationEmail"));
       return;

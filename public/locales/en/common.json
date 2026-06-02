@@ -7,7 +7,7 @@
     "tag": "Patient & Caregiver Input — 2026",
     "headline": "Help us build an AI assistant that truly understands how to answer patient questions",
     "headlineEmphasis": "truly understands",
-    "intro": "Lung Cancer Europe is developing the LuCE Chatbot — an AI-powered information assistant designed specifically for lung cancer patients and their families. To build something genuinely useful, we need to hear from you: what questions matter most? What do you wish you'd known? What do patients and caregivers actually ask?",
+    "intro": "Lung Cancer Europe is developing the LuCE Chatbot — an AI-powered information assistant designed specifically for lung cancer patients and their close ones. To build something genuinely useful, we need to hear from you: what questions matter most? What do you wish you'd known? What do patients and caregivers actually ask?",
     "cta": "Share your questions",
     "stat1Label": "Patient & Caregiver Board members",
     "stat1Value": "7",
@@ -19,9 +19,9 @@
   "about": {
     "tag": "About this project",
     "heading": "Why your questions matter",
-    "p1": "When someone is diagnosed with lung cancer, or caring for someone who is, the internet can feel overwhelming — full of conflicting information, outdated statistics, and content that doesn't speak to the real concerns people face. Too often, patients leave consultations with unanswered questions and nowhere trusted to turn.",
-    "p2": "Patient questions are different from medical literature. They are grounded in lived experience, shaped by fear and hope, and focused on what actually matters in daily life — side effects, what to expect, how to talk to family, what questions to ask a doctor. No academic paper captures that.",
-    "p3": "The LuCE Chatbot is being built to fill that gap. By collecting questions directly from patients, caregivers, and healthcare professionals across Europe, we can ensure that the chatbot's knowledge base reflects genuine needs — not assumptions. Your questions will directly shape what the chatbot covers first when it launches."
+    "p1": "A lung cancer diagnosis brings an immediate need to understand — what this means, what comes next, what to ask the doctor. But consultations are short, the internet is overwhelming, and most online information wasn't written for the person sitting with that news today.",
+    "p2": "People seek clear and trustworthy answers to both the fundamental questions — about diagnosis, staging, and treatment options — and the deeply personal ones: side effects, daily life, how to talk to family, what to push for in an appointment.",
+    "p3": "The LuCE Chatbot is being built around those questions — gathered directly from patients, caregivers, and healthcare professionals across Europe. Your contribution shapes what it covers from day one."
   },
   "howItWorks": {
     "tag": "How it works",
@@ -88,6 +88,7 @@
     "submitting": "Submitting…",
     "validationMinQuestion": "Please add at least one question before submitting.",
     "validationConsent": "Please tick the consent checkbox to continue.",
+    "validationEmailRequired": "You've opted in for updates — please add your email address so we can reach you.",
     "validationEmail": "Please enter a valid email address."
   },
   "success": {
