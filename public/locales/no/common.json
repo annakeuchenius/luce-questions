@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "orgName": "Lung Cancer Europe",
+    "languageLabel": "Språk"
+  },
+  "hero": {
+    "tag": "Innspill fra pasienter og pårørende — 2026",
+    "headline": "Hjelp oss å bygge en AI-assistent som virkelig forstår hvordan den skal svare på pasientspørsmål",
+    "headlineEmphasis": "virkelig forstår",
+    "intro": "Lung Cancer Europe utvikler LuCE Chatbot — en AI-drevet informasjonsassistent designet spesielt for lungekreftpasienter og deres familier. For å bygge noe som er genuint nyttig, trenger vi å høre fra deg: hvilke spørsmål betyr mest? Hva skulle du ønske du hadde visst? Hva spør pasienter og pårørende faktisk om?",
+    "cta": "Del dine spørsmål",
+    "stat1Label": "Pasient- og pårørendemedlemmer i styret",
+    "stat1Value": "7",
+    "stat2Label": "Pan-europeisk rekkevidde",
+    "stat2Value": "EU",
+    "stat3Label": "Lanseringsår",
+    "stat3Value": "2026"
+  },
+  "about": {
+    "tag": "Om dette prosjektet",
+    "heading": "Hvorfor dine spørsmål betyr noe",
+    "p1": "En lungekreftdiagnose bringer et umiddelbart behov for å forstå — hva dette betyr, hva som kommer videre, hva man skal spørre legen om. Men konsultasjonene er korte, internett er overveldende, og det meste av informasjonen på nett ble ikke skrevet for personen som sitter med den nyheten i dag.",
+    "p2": "Folk søker klare og pålitelige svar på både de grunnleggende spørsmålene — om diagnose, stadieinndeling og behandlingsalternativer — og de dypt personlige: bivirkninger, dagligliv, hvordan snakke med familien, hva man bør presse på for i en konsultasjon.",
+    "p3": "LuCE Chatbot bygges rundt disse spørsmålene — samlet direkte fra pasienter, pårørende og helsepersonell over hele Europa. Ditt bidrag former hva den dekker fra dag én."
+  },
+  "howItWorks": {
+    "tag": "Slik fungerer det",
+    "heading": "Hva som skjer med spørsmålene dine",
+    "step1Title": "Du sender inn spørsmålene dine",
+    "step1Desc": "Del alt du har lurt på om lungekreft — diagnose, behandling, bivirkninger, dagligliv eller noe annet. Spørsmål kan være på hvilket som helst språk.",
+    "step2Title": "Vi analyserer og grupperer dem",
+    "step2Desc": "Teamet vårt gjennomgår alle innsendte spørsmål, grupperer relaterte spørsmål sammen og identifiserer temaene som betyr mest på tvers av ulike pasientpopulasjoner.",
+    "step3Title": "Klinikere validerer svarene",
+    "step3Desc": "Medisinske eksperter og pasientrepresentanter gjennomgår de grupperte spørsmålene og samarbeider om å utvikle nøyaktige, pålitelige og tilgjengelige svar.",
+    "step4Title": "Chatboten lanseres med ditt innspill i kjernen",
+    "step4Desc": "LuCE Chatbot lanseres med en kunnskapsbase bygget på virkelige pasientspørsmål — ikke antagelser. Ditt bidrag former hva den vet fra dag én."
+  },
+  "form": {
+    "tag": "Send inn dine spørsmål",
+    "heading": "Hva vil du vite?",
+    "intro": "Del spørsmålene du har — eller har hatt — om lungekreft. Det finnes ingen dumme spørsmål. Du kan sende inn så mange du vil, på hvilket som helst språk.",
+    "privacyTitle": "Vennligst ikke del personlig eller medisinsk informasjon",
+    "privacyBody": "Dette skjemaet er kun for å samle inn generelle spørsmål — ikke personlige historier, diagnoser, testresultater eller medisindetaljer. Still spørsmålet ditt i generelle termer: \"Hva er bivirkningene av X?\" i stedet for \"Jeg tar X og opplever Y.\" Ikke inkluder navnet ditt, e-post eller andre identifiserende detaljer i spørsmålene dine.",
+    "roleLabel": "Jeg er",
+    "rolePlaceholder": "Velg din rolle",
+    "roleOptions": {
+      "patient": "Pasient",
+      "caregiver": "Pårørende / familiemedlem",
+      "nurse": "Sykepleier",
+      "clinician": "Kliniker",
+      "researcher": "Forsker",
+      "policyMaker": "Beslutningstaker",
+      "other": "Annet"
+    },
+    "roleCustomLabel": "Vennligst beskriv din rolle",
+    "roleCustomPlaceholder": "Din rolle",
+    "countryLabel": "Land",
+    "countryPlaceholder": "Velg ditt land",
+    "languageLabel": "Foretrukket språk",
+    "languagePlaceholder": "Velg språk",
+    "languageOptions": {
+      "en": "Engelsk",
+      "de": "Tysk",
+      "fr": "Fransk",
+      "it": "Italiensk",
+      "es": "Spansk",
+      "nl": "Nederlandsk",
+      "pl": "Polsk",
+      "sv": "Svensk",
+      "other": "Annet"
+    },
+    "nameLabel": "Navn (valgfritt)",
+    "namePlaceholder": "Kun fornavn er greit",
+    "emailLabel": "E-post (valgfritt)",
+    "emailPlaceholder": "din@epost.com",
+    "questionsLabel": "Dine spørsmål",
+    "questionsHint": "Spør kun i generelle termer.",
+    "questionsHintWarning": "Ikke inkluder personlige medisinske detaljer, diagnoser eller identifiserende informasjon.",
+    "questionPlaceholder": "Skriv spørsmålet ditt her…",
+    "addButton": "Legg til",
+    "removeQuestion": "Fjern spørsmål",
+    "mailingListLabel": "Hold meg oppdatert om LuCE Chatbot — jeg vil gjerne høre når den lanseres og hvordan jeg kan teste den.",
+    "mailingListEmailReminder": "For å motta oppdateringer, vennligst legg til e-postadressen din ovenfor.",
+    "mailingListEmailReminderLink": "legg til e-postadressen din",
+    "consentLabel": "Jeg forstår at mine spørsmål og grunnleggende demografisk informasjon vil bli lagret sikkert av Lung Cancer Europe og utelukkende brukt til å informere utviklingen av LuCE Chatbot. Svarene mine vil ikke bli delt offentlig eller brukt til andre formål. Jeg bekrefter at jeg ikke har inkludert personlig medisinsk informasjon i spørsmålene mine.",
+    "consentPrivacyLink": "Personvernerklæring",
+    "submitButton": "SEND INN MINE SPØRSMÅL",
+    "submitting": "Sender inn…",
+    "validationMinQuestion": "Vennligst legg til minst ett spørsmål før du sender inn.",
+    "validationConsent": "Vennligst kryss av for samtykke for å fortsette.",
+    "validationEmail": "Vennligst oppgi en gyldig e-postadresse."
+  },
+  "success": {
+    "heading": "Takk for ditt bidrag.",
+    "p1": "Spørsmålene dine har blitt sendt inn. Vi vil gjennomgå dem nøye, og de vil hjelpe med å forme hva LuCE Chatbot dekker først.",
+    "p2": "Hvis du meldte deg på oppdateringer, vil vi ta kontakt når chatboten er klar for testing."
+  },
+  "footer": {
+    "copyright": "© 2026 Lung Cancer Europe",
+    "privacyPolicy": "Personvernerklæring"
+  },
+  "countries": [
+    "Albania", "Andorra", "Østerrike", "Hviterussland", "Belgia", "Bosnia-Hercegovina",
+    "Bulgaria", "Kroatia", "Kypros", "Tsjekkia", "Danmark", "Estland",
+    "Finland", "Frankrike", "Tyskland", "Hellas", "Ungarn", "Island", "Irland",
+    "Italia", "Kosovo", "Latvia", "Liechtenstein", "Litauen", "Luxembourg",
+    "Malta", "Moldova", "Monaco", "Montenegro", "Nederland", "Nord-Makedonia",
+    "Norge", "Polen", "Portugal", "Romania", "Russland", "San Marino", "Serbia",
+    "Slovakia", "Slovenia", "Spania", "Sverige", "Sveits", "Tyrkia", "Ukraina",
+    "Storbritannia", "Vatikanstaten", "Utenfor Europa"
+  ]
+}

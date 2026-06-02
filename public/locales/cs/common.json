@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "orgName": "Lung Cancer Europe",
+    "languageLabel": "Jazyk"
+  },
+  "hero": {
+    "tag": "Podněty pacientů a pečovatelů — 2026",
+    "headline": "Pomozte nám vytvořit AI asistenta, který skutečně rozumí, jak odpovídat na otázky pacientů",
+    "headlineEmphasis": "skutečně rozumí",
+    "intro": "Lung Cancer Europe vyvíjí LuCE Chatbot — informační asistent poháněný umělou inteligencí, navržený speciálně pro pacienty s rakovinou plic a jejich rodiny. Abychom vytvořili něco opravdu užitečného, potřebujeme slyšet od vás: jaké otázky jsou nejdůležitější? Co byste si přáli vědět dříve? Na co se pacienti a pečovatelé skutečně ptají?",
+    "cta": "Sdílejte své otázky",
+    "stat1Label": "Členů správní rady z řad pacientů a pečovatelů",
+    "stat1Value": "7",
+    "stat2Label": "Celoevropský dosah",
+    "stat2Value": "EU",
+    "stat3Label": "Rok spuštění",
+    "stat3Value": "2026"
+  },
+  "about": {
+    "tag": "O tomto projektu",
+    "heading": "Proč na vašich otázkách záleží",
+    "p1": "Diagnóza rakoviny plic přináší okamžitou potřebu porozumět — co to znamená, co bude následovat, na co se zeptat lékaře. Ale konzultace jsou krátké, internet je zahlcující a většina online informací nebyla napsána pro člověka, který s touto zprávou dnes sedí.",
+    "p2": "Lidé hledají jasné a důvěryhodné odpovědi jak na základní otázky — o diagnóze, stagingu a možnostech léčby — tak na ty hluboce osobní: vedlejší účinky, každodenní život, jak mluvit s rodinou, na co tlačit při schůzce.",
+    "p3": "LuCE Chatbot je vytvářen na základě těchto otázek — shromážděných přímo od pacientů, pečovatelů a zdravotníků po celé Evropě. Váš příspěvek formuje to, co bude pokrývat od prvního dne."
+  },
+  "howItWorks": {
+    "tag": "Jak to funguje",
+    "heading": "Co se stane s vašimi otázkami",
+    "step1Title": "Odešlete své otázky",
+    "step1Desc": "Sdílejte cokoli, co vás zajímalo o rakovině plic — diagnózu, léčbu, vedlejší účinky, každodenní život nebo cokoli jiného. Otázky mohou být v jakémkoli jazyce.",
+    "step2Title": "Analyzujeme je a seskupujeme",
+    "step2Desc": "Náš tým posoudí všechny příspěvky, seskupí související otázky a identifikuje témata, která jsou nejdůležitější napříč různými skupinami pacientů.",
+    "step3Title": "Lékaři ověřují odpovědi",
+    "step3Desc": "Lékařští odborníci a pacientští advokáti posoudí seskupené otázky a společně pracují na vývoji přesných, důvěryhodných a přístupných odpovědí.",
+    "step4Title": "Chatbot se spustí s vašimi podněty v jádru",
+    "step4Desc": "LuCE Chatbot se spustí se znalostní databází vytvořenou ze skutečných otázek pacientů — ne předpokladů. Váš příspěvek formuje to, co ví od prvního dne."
+  },
+  "form": {
+    "tag": "Odešlete své otázky",
+    "heading": "Co chcete vědět?",
+    "intro": "Sdílejte otázky, které máte — nebo jste měli — o rakovině plic. Neexistují špatné otázky. Můžete jich odeslat tolik, kolik chcete, v jakémkoli jazyce.",
+    "privacyTitle": "Prosím, nesdílejte osobní nebo lékařské informace",
+    "privacyBody": "Tento formulář slouží pouze ke shromažďování obecných otázek — ne osobních příběhů, diagnóz, výsledků testů nebo podrobností o lécích. Ptejte se obecně: \"Jaké jsou vedlejší účinky X?\" místo \"Beru X a zažívám Y.\" Do svých otázek neuvádějte své jméno, e-mail ani žádné identifikační údaje.",
+    "roleLabel": "Jsem",
+    "rolePlaceholder": "Vyberte svou roli",
+    "roleOptions": {
+      "patient": "Pacient",
+      "caregiver": "Pečovatel / rodinný příslušník",
+      "nurse": "Zdravotní sestra",
+      "clinician": "Lékař",
+      "researcher": "Výzkumník",
+      "policyMaker": "Tvůrce politik",
+      "other": "Jiné"
+    },
+    "roleCustomLabel": "Prosím popište svou roli",
+    "roleCustomPlaceholder": "Vaše role",
+    "countryLabel": "Země",
+    "countryPlaceholder": "Vyberte svou zemi",
+    "languageLabel": "Preferovaný jazyk",
+    "languagePlaceholder": "Vyberte jazyk",
+    "languageOptions": {
+      "en": "Angličtina",
+      "de": "Němčina",
+      "fr": "Francouzština",
+      "it": "Italština",
+      "es": "Španělština",
+      "nl": "Nizozemština",
+      "pl": "Polština",
+      "sv": "Švédština",
+      "other": "Jiný"
+    },
+    "nameLabel": "Jméno (nepovinné)",
+    "namePlaceholder": "Stačí pouze křestní jméno",
+    "emailLabel": "E-mail (nepovinný)",
+    "emailPlaceholder": "váš@email.com",
+    "questionsLabel": "Vaše otázky",
+    "questionsHint": "Ptejte se pouze obecně.",
+    "questionsHintWarning": "Nezahrnujte osobní lékařské údaje, diagnózy nebo identifikační informace.",
+    "questionPlaceholder": "Napište sem svou otázku…",
+    "addButton": "Přidat",
+    "removeQuestion": "Odebrat otázku",
+    "mailingListLabel": "Informujte mě o LuCE Chatbotu — rád(a) bych se dozvěděl(a), kdy bude spuštěn a jak ho testovat.",
+    "mailingListEmailReminder": "Pro zasílání aktualizací prosím zadejte svou e-mailovou adresu výše.",
+    "mailingListEmailReminderLink": "zadejte svou e-mailovou adresu",
+    "consentLabel": "Rozumím tomu, že moje otázky a základní demografické informace budou bezpečně uloženy organizací Lung Cancer Europe a použity výhradně k informování vývoje LuCE Chatbotu. Moje odpovědi nebudou veřejně sdíleny ani použity k žádnému jinému účelu. Potvrzuji, že jsem do svých otázek neuvedl(a) žádné osobní lékařské informace.",
+    "consentPrivacyLink": "Zásady ochrany osobních údajů",
+    "submitButton": "ODESLAT MÉ OTÁZKY",
+    "submitting": "Odesílám…",
+    "validationMinQuestion": "Před odesláním prosím přidejte alespoň jednu otázku.",
+    "validationConsent": "Pro pokračování prosím zaškrtněte políčko souhlasu.",
+    "validationEmail": "Prosím zadejte platnou e-mailovou adresu."
+  },
+  "success": {
+    "heading": "Děkujeme za váš příspěvek.",
+    "p1": "Vaše otázky byly odeslány. Pečlivě je posoudíme a pomohou nám určit, co bude LuCE Chatbot pokrývat jako první.",
+    "p2": "Pokud jste se přihlásili k odběru aktualizací, ozveme se vám, až bude chatbot připraven k testování."
+  },
+  "footer": {
+    "copyright": "© 2026 Lung Cancer Europe",
+    "privacyPolicy": "Zásady ochrany osobních údajů"
+  },
+  "countries": [
+    "Albánie", "Andorra", "Rakousko", "Bělorusko", "Belgie", "Bosna a Hercegovina",
+    "Bulharsko", "Chorvatsko", "Kypr", "Česká republika", "Dánsko", "Estonsko",
+    "Finsko", "Francie", "Německo", "Řecko", "Maďarsko", "Island", "Irsko",
+    "Itálie", "Kosovo", "Lotyšsko", "Lichtenštejnsko", "Litva", "Lucembursko",
+    "Malta", "Moldavsko", "Monako", "Černá Hora", "Nizozemsko", "Severní Makedonie",
+    "Norsko", "Polsko", "Portugalsko", "Rumunsko", "Rusko", "San Marino", "Srbsko",
+    "Slovensko", "Slovinsko", "Španělsko", "Švédsko", "Švýcarsko", "Turecko", "Ukrajina",
+    "Spojené království", "Vatikán", "Mimo Evropu"
+  ]
+}

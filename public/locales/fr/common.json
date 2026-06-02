@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "orgName": "Lung Cancer Europe",
+    "languageLabel": "Langue"
+  },
+  "hero": {
+    "tag": "Contribution des patients et des aidants — 2026",
+    "headline": "Aidez-nous à créer un assistant IA qui comprend vraiment comment répondre aux questions des patients",
+    "headlineEmphasis": "comprend vraiment",
+    "intro": "Lung Cancer Europe développe le LuCE Chatbot — un assistant d'information alimenté par l'IA, conçu spécifiquement pour les patients atteints de cancer du poumon et leurs familles. Pour créer quelque chose de véritablement utile, nous avons besoin de vous entendre : quelles questions sont les plus importantes ? Qu'auriez-vous aimé savoir ? Que demandent réellement les patients et les aidants ?",
+    "cta": "Partagez vos questions",
+    "stat1Label": "Membres patients et aidants du conseil",
+    "stat1Value": "7",
+    "stat2Label": "Portée paneuropéenne",
+    "stat2Value": "UE",
+    "stat3Label": "Année de lancement",
+    "stat3Value": "2026"
+  },
+  "about": {
+    "tag": "À propos de ce projet",
+    "heading": "Pourquoi vos questions sont importantes",
+    "p1": "Un diagnostic de cancer du poumon entraîne un besoin immédiat de comprendre — ce que cela signifie, ce qui va suivre, quoi demander au médecin. Mais les consultations sont courtes, Internet est écrasant, et la plupart des informations en ligne n'ont pas été écrites pour la personne qui reçoit cette nouvelle aujourd'hui.",
+    "p2": "Les gens cherchent des réponses claires et fiables aux questions fondamentales — sur le diagnostic, la stadification et les options de traitement — ainsi qu'aux questions profondément personnelles : effets secondaires, vie quotidienne, comment parler à la famille, quoi demander lors d'un rendez-vous.",
+    "p3": "Le LuCE Chatbot est construit autour de ces questions — recueillies directement auprès des patients, des aidants et des professionnels de santé à travers l'Europe. Votre contribution façonne ce qu'il couvre dès le premier jour."
+  },
+  "howItWorks": {
+    "tag": "Comment ça fonctionne",
+    "heading": "Ce qui arrive à vos questions",
+    "step1Title": "Vous soumettez vos questions",
+    "step1Desc": "Partagez tout ce que vous vous êtes demandé sur le cancer du poumon — diagnostic, traitement, effets secondaires, vie quotidienne, ou autre. Les questions peuvent être dans n'importe quelle langue.",
+    "step2Title": "Nous les analysons et les regroupons",
+    "step2Desc": "Notre équipe examine toutes les soumissions, regroupe les questions connexes et identifie les sujets les plus importants parmi les différentes populations de patients.",
+    "step3Title": "Les cliniciens valident les réponses",
+    "step3Desc": "Des experts médicaux et des défenseurs des patients examinent les questions regroupées et travaillent ensemble pour développer des réponses précises, fiables et accessibles.",
+    "step4Title": "Le chatbot se lance avec votre contribution au cœur",
+    "step4Desc": "Le LuCE Chatbot se lance avec une base de connaissances construite à partir de vraies questions de patients — pas de suppositions. Votre contribution façonne ce qu'il sait dès le premier jour."
+  },
+  "form": {
+    "tag": "Soumettez vos questions",
+    "heading": "Que voulez-vous savoir ?",
+    "intro": "Partagez les questions que vous avez — ou avez eues — sur le cancer du poumon. Il n'y a pas de mauvaises questions. Vous pouvez en soumettre autant que vous voulez, dans n'importe quelle langue.",
+    "privacyTitle": "Veuillez ne pas partager d'informations personnelles ou médicales",
+    "privacyBody": "Ce formulaire sert uniquement à collecter des questions générales — pas d'histoires personnelles, de diagnostics, de résultats de tests ou de détails sur les médicaments. Posez votre question en termes généraux : \"Quels sont les effets secondaires de X ?\" plutôt que \"Je prends X et j'éprouve Y.\" N'incluez pas votre nom, email ou tout détail d'identification dans vos questions.",
+    "roleLabel": "Je suis",
+    "rolePlaceholder": "Sélectionnez votre rôle",
+    "roleOptions": {
+      "patient": "Patient",
+      "caregiver": "Aidant / membre de la famille",
+      "nurse": "Infirmier(ère)",
+      "clinician": "Clinicien",
+      "researcher": "Chercheur",
+      "policyMaker": "Décideur politique",
+      "other": "Autre"
+    },
+    "roleCustomLabel": "Veuillez décrire votre rôle",
+    "roleCustomPlaceholder": "Votre rôle",
+    "countryLabel": "Pays",
+    "countryPlaceholder": "Sélectionnez votre pays",
+    "languageLabel": "Langue préférée",
+    "languagePlaceholder": "Sélectionnez la langue",
+    "languageOptions": {
+      "en": "Anglais",
+      "de": "Allemand",
+      "fr": "Français",
+      "it": "Italien",
+      "es": "Espagnol",
+      "nl": "Néerlandais",
+      "pl": "Polonais",
+      "sv": "Suédois",
+      "other": "Autre"
+    },
+    "nameLabel": "Nom (facultatif)",
+    "namePlaceholder": "Le prénom seulement suffit",
+    "emailLabel": "Email (facultatif)",
+    "emailPlaceholder": "votre@email.com",
+    "questionsLabel": "Vos questions",
+    "questionsHint": "Posez en termes généraux uniquement.",
+    "questionsHintWarning": "N'incluez pas de détails médicaux personnels, de diagnostics ou d'informations d'identification.",
+    "questionPlaceholder": "Tapez votre question ici…",
+    "addButton": "Ajouter",
+    "removeQuestion": "Supprimer la question",
+    "mailingListLabel": "Tenez-moi informé(e) du LuCE Chatbot — j'aimerais savoir quand il sera lancé et comment le tester.",
+    "mailingListEmailReminder": "Pour recevoir des mises à jour, veuillez ajouter votre adresse email ci-dessus.",
+    "mailingListEmailReminderLink": "ajouter votre adresse email",
+    "consentLabel": "Je comprends que mes questions et mes informations démographiques de base seront stockées en toute sécurité par Lung Cancer Europe et utilisées uniquement pour informer le développement du LuCE Chatbot. Mes réponses ne seront pas partagées publiquement ou utilisées à d'autres fins. Je confirme que je n'ai inclus aucune information médicale personnelle dans mes questions.",
+    "consentPrivacyLink": "Politique de confidentialité",
+    "submitButton": "SOUMETTRE MES QUESTIONS",
+    "submitting": "Soumission en cours…",
+    "validationMinQuestion": "Veuillez ajouter au moins une question avant de soumettre.",
+    "validationConsent": "Veuillez cocher la case de consentement pour continuer.",
+    "validationEmail": "Veuillez entrer une adresse email valide."
+  },
+  "success": {
+    "heading": "Merci pour votre contribution.",
+    "p1": "Vos questions ont été soumises. Nous les examinerons attentivement et elles aideront à façonner ce que le LuCE Chatbot couvrira en premier.",
+    "p2": "Si vous avez choisi de recevoir des mises à jour, nous vous contacterons lorsque le chatbot sera prêt à être testé."
+  },
+  "footer": {
+    "copyright": "© 2026 Lung Cancer Europe",
+    "privacyPolicy": "Politique de confidentialité"
+  },
+  "countries": [
+    "Albanie", "Andorre", "Autriche", "Biélorussie", "Belgique", "Bosnie-Herzégovine",
+    "Bulgarie", "Croatie", "Chypre", "République tchèque", "Danemark", "Estonie",
+    "Finlande", "France", "Allemagne", "Grèce", "Hongrie", "Islande", "Irlande",
+    "Italie", "Kosovo", "Lettonie", "Liechtenstein", "Lituanie", "Luxembourg",
+    "Malte", "Moldavie", "Monaco", "Monténégro", "Pays-Bas", "Macédoine du Nord",
+    "Norvège", "Pologne", "Portugal", "Roumanie", "Russie", "Saint-Marin", "Serbie",
+    "Slovaquie", "Slovénie", "Espagne", "Suède", "Suisse", "Turquie", "Ukraine",
+    "Royaume-Uni", "Cité du Vatican", "Hors Europe"
+  ]
+}

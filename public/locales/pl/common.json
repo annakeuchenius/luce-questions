@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "orgName": "Lung Cancer Europe",
+    "languageLabel": "Język"
+  },
+  "hero": {
+    "tag": "Opinie pacjentów i opiekunów — 2026",
+    "headline": "Pomóż nam stworzyć asystenta AI, który naprawdę rozumie, jak odpowiadać na pytania pacjentów",
+    "headlineEmphasis": "naprawdę rozumie",
+    "intro": "Lung Cancer Europe opracowuje LuCE Chatbot — asystenta informacyjnego opartego na sztucznej inteligencji, zaprojektowanego specjalnie dla pacjentów z rakiem płuca i ich rodzin. Aby stworzyć coś naprawdę użytecznego, potrzebujemy Twojej opinii: jakie pytania są najważniejsze? Co chciałbyś wiedzieć wcześniej? O co faktycznie pytają pacjenci i opiekunowie?",
+    "cta": "Podziel się swoimi pytaniami",
+    "stat1Label": "Członkowie zarządu reprezentujący pacjentów i opiekunów",
+    "stat1Value": "7",
+    "stat2Label": "Zasięg ogólnoeuropejski",
+    "stat2Value": "UE",
+    "stat3Label": "Rok uruchomienia",
+    "stat3Value": "2026"
+  },
+  "about": {
+    "tag": "O tym projekcie",
+    "heading": "Dlaczego Twoje pytania są ważne",
+    "p1": "Diagnoza raka płuca przynosi natychmiastową potrzebę zrozumienia — co to oznacza, co będzie dalej, o co zapytać lekarza. Ale konsultacje są krótkie, internet jest przytłaczający, a większość informacji online nie została napisana dla osoby, która dziś otrzymała tę wiadomość.",
+    "p2": "Ludzie szukają jasnych i wiarygodnych odpowiedzi zarówno na fundamentalne pytania — o diagnozę, stopień zaawansowania i opcje leczenia — jak i te głęboko osobiste: skutki uboczne, codzienne życie, jak rozmawiać z rodziną, o co naciskać podczas wizyty.",
+    "p3": "LuCE Chatbot jest budowany wokół tych pytań — zebranych bezpośrednio od pacjentów, opiekunów i pracowników służby zdrowia z całej Europy. Twój wkład kształtuje to, co obejmuje od pierwszego dnia."
+  },
+  "howItWorks": {
+    "tag": "Jak to działa",
+    "heading": "Co dzieje się z Twoimi pytaniami",
+    "step1Title": "Przesyłasz swoje pytania",
+    "step1Desc": "Podziel się wszystkim, co Cię zastanawiało w związku z rakiem płuca — diagnozą, leczeniem, skutkami ubocznymi, codziennym życiem lub czymkolwiek innym. Pytania mogą być w dowolnym języku.",
+    "step2Title": "Analizujemy i grupujemy je",
+    "step2Desc": "Nasz zespół przegląda wszystkie zgłoszenia, grupuje powiązane pytania i identyfikuje tematy, które są najważniejsze dla różnych populacji pacjentów.",
+    "step3Title": "Klinicyści weryfikują odpowiedzi",
+    "step3Desc": "Eksperci medyczni i rzecznicy pacjentów przeglądają pogrupowane pytania i współpracują przy opracowaniu dokładnych, wiarygodnych i przystępnych odpowiedzi.",
+    "step4Title": "Chatbot startuje z Twoim wkładem w centrum",
+    "step4Desc": "LuCE Chatbot startuje z bazą wiedzy zbudowaną na prawdziwych pytaniach pacjentów — nie założeniach. Twój wkład kształtuje to, co wie od pierwszego dnia."
+  },
+  "form": {
+    "tag": "Prześlij swoje pytania",
+    "heading": "Co chcesz wiedzieć?",
+    "intro": "Podziel się pytaniami, które masz — lub miałeś — dotyczące raka płuca. Nie ma złych pytań. Możesz przesłać tyle, ile chcesz, w dowolnym języku.",
+    "privacyTitle": "Prosimy nie udostępniać informacji osobistych ani medycznych",
+    "privacyBody": "Ten formularz służy wyłącznie do zbierania ogólnych pytań — nie osobistych historii, diagnoz, wyników badań czy szczegółów leków. Zadaj pytanie w sposób ogólny: \"Jakie są skutki uboczne X?\" zamiast \"Biorę X i doświadczam Y.\" Nie umieszczaj swojego imienia, emaila ani żadnych danych identyfikujących w pytaniach.",
+    "roleLabel": "Jestem",
+    "rolePlaceholder": "Wybierz swoją rolę",
+    "roleOptions": {
+      "patient": "Pacjentem",
+      "caregiver": "Opiekunem / członkiem rodziny",
+      "nurse": "Pielęgniarką/pielęgniarzem",
+      "clinician": "Klinicystą",
+      "researcher": "Badaczem",
+      "policyMaker": "Decydentem",
+      "other": "Inny"
+    },
+    "roleCustomLabel": "Proszę opisać swoją rolę",
+    "roleCustomPlaceholder": "Twoja rola",
+    "countryLabel": "Kraj",
+    "countryPlaceholder": "Wybierz swój kraj",
+    "languageLabel": "Preferowany język",
+    "languagePlaceholder": "Wybierz język",
+    "languageOptions": {
+      "en": "Angielski",
+      "de": "Niemiecki",
+      "fr": "Francuski",
+      "it": "Włoski",
+      "es": "Hiszpański",
+      "nl": "Holenderski",
+      "pl": "Polski",
+      "sv": "Szwedzki",
+      "other": "Inny"
+    },
+    "nameLabel": "Imię (opcjonalne)",
+    "namePlaceholder": "Samo imię wystarczy",
+    "emailLabel": "Email (opcjonalny)",
+    "emailPlaceholder": "twoj@email.com",
+    "questionsLabel": "Twoje pytania",
+    "questionsHint": "Zadawaj pytania tylko w sposób ogólny.",
+    "questionsHintWarning": "Nie umieszczaj osobistych danych medycznych, diagnoz ani informacji identyfikujących.",
+    "questionPlaceholder": "Wpisz swoje pytanie tutaj…",
+    "addButton": "Dodaj",
+    "removeQuestion": "Usuń pytanie",
+    "mailingListLabel": "Informuj mnie o LuCE Chatbot — chciałbym dowiedzieć się, kiedy zostanie uruchomiony i jak go przetestować.",
+    "mailingListEmailReminder": "Aby otrzymywać aktualizacje, dodaj swój adres email powyżej.",
+    "mailingListEmailReminderLink": "dodaj swój adres email",
+    "consentLabel": "Rozumiem, że moje pytania i podstawowe informacje demograficzne będą bezpiecznie przechowywane przez Lung Cancer Europe i wykorzystywane wyłącznie do opracowania LuCE Chatbot. Moje odpowiedzi nie będą udostępniane publicznie ani wykorzystywane do żadnych innych celów. Potwierdzam, że nie umieściłem żadnych osobistych informacji medycznych w moich pytaniach.",
+    "consentPrivacyLink": "Polityka prywatności",
+    "submitButton": "PRZEŚLIJ MOJE PYTANIA",
+    "submitting": "Przesyłanie…",
+    "validationMinQuestion": "Przed wysłaniem dodaj przynajmniej jedno pytanie.",
+    "validationConsent": "Zaznacz pole zgody, aby kontynuować.",
+    "validationEmail": "Wprowadź prawidłowy adres email."
+  },
+  "success": {
+    "heading": "Dziękujemy za Twój wkład.",
+    "p1": "Twoje pytania zostały przesłane. Dokładnie je przejrzymy i pomogą one kształtować to, co LuCE Chatbot obejmie w pierwszej kolejności.",
+    "p2": "Jeśli wyraziłeś zgodę na otrzymywanie aktualizacji, skontaktujemy się, gdy chatbot będzie gotowy do testów."
+  },
+  "footer": {
+    "copyright": "© 2026 Lung Cancer Europe",
+    "privacyPolicy": "Polityka prywatności"
+  },
+  "countries": [
+    "Albania", "Andora", "Austria", "Białoruś", "Belgia", "Bośnia i Hercegowina",
+    "Bułgaria", "Chorwacja", "Cypr", "Czechy", "Dania", "Estonia",
+    "Finlandia", "Francja", "Niemcy", "Grecja", "Węgry", "Islandia", "Irlandia",
+    "Włochy", "Kosowo", "Łotwa", "Liechtenstein", "Litwa", "Luksemburg",
+    "Malta", "Mołdawia", "Monako", "Czarnogóra", "Holandia", "Macedonia Północna",
+    "Norwegia", "Polska", "Portugalia", "Rumunia", "Rosja", "San Marino", "Serbia",
+    "Słowacja", "Słowenia", "Hiszpania", "Szwecja", "Szwajcaria", "Turcja", "Ukraina",
+    "Wielka Brytania", "Watykan", "Poza Europą"
+  ]
+}

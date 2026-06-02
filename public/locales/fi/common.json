@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "orgName": "Lung Cancer Europe",
+    "languageLabel": "Kieli"
+  },
+  "hero": {
+    "tag": "Potilaiden ja läheisten palaute — 2026",
+    "headline": "Auta meitä rakentamaan tekoälyavustaja, joka todella ymmärtää miten vastata potilaiden kysymyksiin",
+    "headlineEmphasis": "todella ymmärtää",
+    "intro": "Lung Cancer Europe kehittää LuCE-chattibottia — tekoälypohjaista tietoavustajaa, joka on suunniteltu erityisesti keuhkosyöpäpotilaille ja heidän perheilleen. Rakentaaksemme aidosti hyödyllisen palvelun tarvitsemme sinun panostasi: mitkä kysymykset ovat tärkeimpiä? Mitä toivoisit tienneesi? Mitä potilaat ja läheiset oikeasti kysyvät?",
+    "cta": "Jaa kysymyksiäsi",
+    "stat1Label": "Potilas- ja läheishallituksen jäsentä",
+    "stat1Value": "7",
+    "stat2Label": "Yleiseurooppalainen kattavuus",
+    "stat2Value": "EU",
+    "stat3Label": "Julkaisuvuosi",
+    "stat3Value": "2026"
+  },
+  "about": {
+    "tag": "Tietoa projektista",
+    "heading": "Miksi kysymyksesi ovat tärkeitä",
+    "p1": "Keuhkosyöpädiagnoosi tuo välittömän tarpeen ymmärtä�� — mitä tämä tarkoittaa, mitä tapahtuu seuraavaksi, mitä kysyä lääkäriltä. Mutta vastaanotot ovat lyhyitä, internet on ylivoimainen, eikä suurinta osaa verkkotiedosta ole kirjoitettu henkilölle, joka istuu tänään näiden uutisten kanssa.",
+    "p2": "Ihmiset etsivät selkeitä ja luotettavia vastauksia sekä peruskysymyksiin — diagnoosista, levinneisyysluokituksesta ja hoitovaihtoehdoista — että syvästi henkilökohtaisiin: sivuvaikutuksista, arjesta, miten puhua perheelle, mitä vaatia vastaanotolla.",
+    "p3": "LuCE-chattibotti rakennetaan näiden kysymysten ympärille — kerättynä suoraan potilailta, läheisiltä ja terveydenhuollon ammattilaisilta eri puolilta Eurooppaa. Sinun panoksesi muokkaa sitä, mitä se kattaa alusta alkaen."
+  },
+  "howItWorks": {
+    "tag": "Näin se toimii",
+    "heading": "Mitä kysymyksillesi tapahtuu",
+    "step1Title": "Lähetät kysymyksesi",
+    "step1Desc": "Jaa mitä tahansa, mitä olet miettinyt keuhkosyövästä — diagnoosista, hoidosta, sivuvaikutuksista, arjesta tai mistä tahansa muusta. Kysymykset voivat olla millä tahansa kielellä.",
+    "step2Title": "Analysoimme ja ryhmittelemme ne",
+    "step2Desc": "Tiimimme käy läpi kaikki lähetykset, ryhmittelee samankaltaiset kysymykset yhteen ja tunnistaa tärkeimmät aiheet eri potilasryhmissä.",
+    "step3Title": "Lääkärit vahvistavat vastaukset",
+    "step3Desc": "Lääketieteen asiantuntijat ja potilasedustajat käyvät läpi ryhmitellyt kysymykset ja kehittävät yhdessä tarkkoja, luotettavia ja ymmärrettäviä vastauksia.",
+    "step4Title": "Chattibotti julkaistaan panoksesi ytimessä",
+    "step4Desc": "LuCE-chattibotti julkaistaan tietokannalla, joka on rakennettu aidoista potilaiden kysymyksistä — ei oletuksista. Sinun panoksesi muokkaa sitä, mitä se tietää alusta alkaen."
+  },
+  "form": {
+    "tag": "Lähetä kysymyksesi",
+    "heading": "Mitä haluat tietää?",
+    "intro": "Jaa kysymykset, joita sinulla on — tai on ollut — keuhkosyövästä. Vääriä kysymyksiä ei ole. Voit lähettää niin monta kuin haluat, millä tahansa kielellä.",
+    "privacyTitle": "Älä jaa henkilökohtaisia tai lääketieteellisiä tietoja",
+    "privacyBody": "Tämä lomake on tarkoitettu vain yleisten kysymysten keräämiseen — ei henkilökohtaisten tarinoiden, diagnoosien, tutkimustulosten tai lääketietojen jakamiseen. Esitä kysymyksesi yleisellä tasolla: \"Mitkä ovat X:n sivuvaikutukset?\" eikä \"Käytän X:ää ja koen Y:tä.\" Älä sisällytä kysymyksiisi nimeäsi, sähköpostiosoitettasi tai mitään tunnistettavia tietoja.",
+    "roleLabel": "Olen",
+    "rolePlaceholder": "Valitse roolisi",
+    "roleOptions": {
+      "patient": "Potilas",
+      "caregiver": "Läheinen / perheenjäsen",
+      "nurse": "Sairaanhoitaja",
+      "clinician": "Lääkäri",
+      "researcher": "Tutkija",
+      "policyMaker": "Päätöksentekijä",
+      "other": "Muu"
+    },
+    "roleCustomLabel": "Kuvaile rooliasi",
+    "roleCustomPlaceholder": "Roolisi",
+    "countryLabel": "Maa",
+    "countryPlaceholder": "Valitse maasi",
+    "languageLabel": "Toivottu kieli",
+    "languagePlaceholder": "Valitse kieli",
+    "languageOptions": {
+      "en": "Englanti",
+      "de": "Saksa",
+      "fr": "Ranska",
+      "it": "Italia",
+      "es": "Espanja",
+      "nl": "Hollanti",
+      "pl": "Puola",
+      "sv": "Ruotsi",
+      "other": "Muu"
+    },
+    "nameLabel": "Nimi (vapaaehtoinen)",
+    "namePlaceholder": "Pelkkä etunimi riittää",
+    "emailLabel": "Sähköposti (vapaaehtoinen)",
+    "emailPlaceholder": "sinun@sahkoposti.com",
+    "questionsLabel": "Kysymyksesi",
+    "questionsHint": "Kysy vain yleisellä tasolla.",
+    "questionsHintWarning": "Älä sisällytä henkilökohtaisia lääketieteellisiä tietoja, diagnooseja tai tunnistettavia tietoja.",
+    "questionPlaceholder": "Kirjoita kysymyksesi tähän…",
+    "addButton": "Lisää",
+    "removeQuestion": "Poista kysymys",
+    "mailingListLabel": "Pidä minut ajan tasalla LuCE-chattibotista — haluaisin kuulla, kun se julkaistaan ja miten sitä voi testata.",
+    "mailingListEmailReminder": "Saadaksesi päivityksiä, lisää sähköpostiosoitteesi yllä.",
+    "mailingListEmailReminderLink": "lisää sähköpostiosoitteesi",
+    "consentLabel": "Ymmärrän, että kysymykseni ja perustiedot tallennetaan turvallisesti Lung Cancer Europen toimesta ja niitä käytetään yksinomaan LuCE-chattibotin kehittämiseen. Vastauksia ei jaeta julkisesti eikä käytetä muihin tarkoituksiin. Vahvistan, etten ole sisällyttänyt kysymyksiini henkilökohtaisia lääketieteellisiä tietoja.",
+    "consentPrivacyLink": "Tietosuojaseloste",
+    "submitButton": "LÄHETÄ KYSYMYKSENI",
+    "submitting": "Lähetetään…",
+    "validationMinQuestion": "Lisää vähintään yksi kysymys ennen lähettämistä.",
+    "validationConsent": "Rastita suostumusruutu jatkaaksesi.",
+    "validationEmail": "Anna kelvollinen sähköpostiosoite."
+  },
+  "success": {
+    "heading": "Kiitos panoksestasi.",
+    "p1": "Kysymyksesi on lähetetty. Käymme ne huolellisesti läpi ja ne auttavat muokkaamaan sitä, mitä LuCE-chattibotti kattaa ensimmäisenä.",
+    "p2": "Jos tilasit päivityksiä, olemme yhteydessä, kun chattibotti on valmis testattavaksi."
+  },
+  "footer": {
+    "copyright": "© 2026 Lung Cancer Europe",
+    "privacyPolicy": "Tietosuojaseloste"
+  },
+  "countries": [
+    "Albania", "Andorra", "Itävalta", "Valko-Venäjä", "Belgia", "Bosnia ja Hertsegovina",
+    "Bulgaria", "Kroatia", "Kypros", "Tšekki", "Tanska", "Viro",
+    "Suomi", "Ranska", "Saksa", "Kreikka", "Unkari", "Islanti", "Irlanti",
+    "Italia", "Kosovo", "Latvia", "Liechtenstein", "Liettua", "Luxemburg",
+    "Malta", "Moldova", "Monaco", "Montenegro", "Alankomaat", "Pohjois-Makedonia",
+    "Norja", "Puola", "Portugali", "Romania", "Venäjä", "San Marino", "Serbia",
+    "Slovakia", "Slovenia", "Espanja", "Ruotsi", "Sveitsi", "Turkki", "Ukraina",
+    "Iso-Britannia", "Vatikaani", "Euroopan ulkopuolella"
+  ]
+}

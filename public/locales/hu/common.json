@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "orgName": "Lung Cancer Europe",
+    "languageLabel": "Nyelv"
+  },
+  "hero": {
+    "tag": "Beteg és gondozó vélemények — 2026",
+    "headline": "Segíts nekünk egy olyan AI asszisztens építésében, amely valóban érti, hogyan válaszoljon a betegek kérdéseire",
+    "headlineEmphasis": "valóban érti",
+    "intro": "A Lung Cancer Europe fejleszti a LuCE Chatbotot — egy AI-alapú információs asszisztenst, amelyet kifejezetten tüdőrákos betegek és családjaik számára tervezünk. Hogy valóban hasznos eszközt építsünk, hallanunk kell tőled: melyek a legfontosabb kérdések? Mit szerettél volna tudni? Mit kérdeznek valójában a betegek és gondozók?",
+    "cta": "Oszd meg kérdéseidet",
+    "stat1Label": "Beteg és gondozó igazgatósági tagok",
+    "stat1Value": "7",
+    "stat2Label": "Páneurópai hatókör",
+    "stat2Value": "EU",
+    "stat3Label": "Indulás éve",
+    "stat3Value": "2026"
+  },
+  "about": {
+    "tag": "A projektről",
+    "heading": "Miért fontosak a kérdéseid",
+    "p1": "A tüdőrák diagnózis azonnali megértési igényt hoz — mit jelent ez, mi következik, mit kérdezzek az orvostól. De a konzultációk rövidek, az internet túlságosan bőséges, és a legtöbb online információ nem annak íródott, aki ma szembesül ezzel a hírrel.",
+    "p2": "Az emberek világos és megbízható válaszokat keresnek mind az alapvető kérdésekre — a diagnózisról, stádiumbesorolásról és kezelési lehetőségekről — mind a mélyen személyes kérdésekre: mellékhatások, mindennapi élet, hogyan beszéljenek a családdal, miért álljanak ki egy vizsgálaton.",
+    "p3": "A LuCE Chatbot ezekre a kérdésekre épül — amelyeket közvetlenül a betegektől, gondozóktól és egészségügyi szakemberektől gyűjtöttünk Európa-szerte. A te hozzájárulásod formálja, hogy mivel foglalkozik az első naptól."
+  },
+  "howItWorks": {
+    "tag": "Hogyan működik",
+    "heading": "Mi történik a kérdéseiddel",
+    "step1Title": "Beküldöd a kérdéseidet",
+    "step1Desc": "Oszd meg bármit, amit a tüdőrákról kérdeztél — diagnózis, kezelés, mellékhatások, mindennapi élet, vagy bármi más. A kérdések bármilyen nyelven lehetnek.",
+    "step2Title": "Elemezzük és csoportosítjuk őket",
+    "step2Desc": "Csapatunk áttekinti az összes beküldést, csoportosítja a kapcsolódó kérdéseket, és azonosítja a legfontosabb témákat a különböző betegpopulációkban.",
+    "step3Title": "Klinikusok validálják a válaszokat",
+    "step3Desc": "Orvosi szakértők és betegképviselők áttekintik a csoportosított kérdéseket, és együtt dolgoznak pontos, megbízható és hozzáférhető válaszok kidolgozásán.",
+    "step4Title": "A chatbot a te inputoddal indul",
+    "step4Desc": "A LuCE Chatbot valós betegkérdésekre épülő tudásbázissal indul — nem feltételezésekkel. A te hozzájárulásod formálja, hogy mit tud az első naptól."
+  },
+  "form": {
+    "tag": "Küldd be kérdéseidet",
+    "heading": "Mit szeretnél tudni?",
+    "intro": "Oszd meg a kérdéseidet — vagy amiket korábban feltettél — a tüdőrákról. Nincsenek rossz kérdések. Annyit küldhetsz be, amennyit szeretnél, bármilyen nyelven.",
+    "privacyTitle": "Kérjük, ne ossz meg személyes vagy orvosi információkat",
+    "privacyBody": "Ez az űrlap csak általános kérdések gyűjtésére szolgál — nem személyes történetekre, diagnózisokra, vizsgálati eredményekre vagy gyógyszeradatokra. Tedd fel kérdéseidet általános formában: \"Mik az X mellékhatásai?\" ahelyett, hogy \"X-et szedek és Y-t tapasztalok.\" Ne add meg nevedet, e-mail címedet vagy bármilyen azonosító adatot a kérdéseidben.",
+    "roleLabel": "Én egy",
+    "rolePlaceholder": "Válaszd ki szerepedet",
+    "roleOptions": {
+      "patient": "Beteg",
+      "caregiver": "Gondozó / családtag",
+      "nurse": "Ápoló",
+      "clinician": "Klinikus",
+      "researcher": "Kutató",
+      "policyMaker": "Döntéshozó",
+      "other": "Egyéb"
+    },
+    "roleCustomLabel": "Kérjük, írd le a szerepedet",
+    "roleCustomPlaceholder": "A szereped",
+    "countryLabel": "Ország",
+    "countryPlaceholder": "Válaszd ki országodat",
+    "languageLabel": "Preferált nyelv",
+    "languagePlaceholder": "Válassz nyelvet",
+    "languageOptions": {
+      "en": "Angol",
+      "de": "Német",
+      "fr": "Francia",
+      "it": "Olasz",
+      "es": "Spanyol",
+      "nl": "Holland",
+      "pl": "Lengyel",
+      "sv": "Svéd",
+      "other": "Egyéb"
+    },
+    "nameLabel": "Név (opcionális)",
+    "namePlaceholder": "Csak a keresztnév is elég",
+    "emailLabel": "E-mail (opcionális)",
+    "emailPlaceholder": "te@email.com",
+    "questionsLabel": "Kérdéseid",
+    "questionsHint": "Csak általános formában kérdezz.",
+    "questionsHintWarning": "Ne tartalmazz személyes egészségügyi adatokat, diagnózisokat vagy azonosító információkat.",
+    "questionPlaceholder": "Írd ide a kérdésedet…",
+    "addButton": "Hozzáadás",
+    "removeQuestion": "Kérdés eltávolítása",
+    "mailingListLabel": "Értesítést kérek a LuCE Chatbot fejleményeiről — szeretnék hallani az indulásról és a tesztelési lehetőségről.",
+    "mailingListEmailReminder": "Frissítések fogadásához kérjük, add meg e-mail címedet fent.",
+    "mailingListEmailReminderLink": "add meg e-mail címedet",
+    "consentLabel": "Megértem, hogy kérdéseimet és alapvető demográfiai adataimat a Lung Cancer Europe biztonságosan tárolja, és kizárólag a LuCE Chatbot fejlesztéséhez használja. Válaszaimat nem teszik közzé nyilvánosan és semmilyen más célra nem használják. Megerősítem, hogy nem adtam meg személyes egészségügyi információkat a kérdéseimben.",
+    "consentPrivacyLink": "Adatvédelmi nyilatkozat",
+    "submitButton": "KÉRDÉSEIM BEKÜLDÉSE",
+    "submitting": "Beküldés folyamatban…",
+    "validationMinQuestion": "Kérjük, adj hozzá legalább egy kérdést a beküldés előtt.",
+    "validationConsent": "Kérjük, jelöld be a hozzájáruló négyzetet a folytatáshoz.",
+    "validationEmail": "Kérjük, adj meg érvényes e-mail címet."
+  },
+  "success": {
+    "heading": "Köszönjük a hozzájárulásodat.",
+    "p1": "Kérdéseidet elküldtük. Gondosan áttekintjük őket, és segíteni fognak meghatározni, hogy a LuCE Chatbot mivel foglalkozzon először.",
+    "p2": "Ha feliratkoztál a frissítésekre, értesítünk, amikor a chatbot készen áll a tesztelésre."
+  },
+  "footer": {
+    "copyright": "© 2026 Lung Cancer Europe",
+    "privacyPolicy": "Adatvédelmi nyilatkozat"
+  },
+  "countries": [
+    "Albánia", "Andorra", "Ausztria", "Fehéroroszország", "Belgium", "Bosznia-Hercegovina",
+    "Bulgária", "Horvátország", "Ciprus", "Csehország", "Dánia", "Észtország",
+    "Finnország", "Franciaország", "Németország", "Görögország", "Magyarország", "Izland", "Írország",
+    "Olaszország", "Koszovó", "Lettország", "Liechtenstein", "Litvánia", "Luxemburg",
+    "Málta", "Moldova", "Monaco", "Montenegró", "Hollandia", "Észak-Macedónia",
+    "Norvégia", "Lengyelország", "Portugália", "Románia", "Oroszország", "San Marino", "Szerbia",
+    "Szlovákia", "Szlovénia", "Spanyolország", "Svédország", "Svájc", "Törökország", "Ukrajna",
+    "Egyesült Királyság", "Vatikán", "Európán kívül"
+  ]
+}
