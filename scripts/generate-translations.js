@@ -121,7 +121,7 @@ async function translateLanguage(lang) {
   console.log(`🔄  ${lang.code} (${lang.name}): translating…`);
 
   const response = await callAnthropic({
-    model: "claude-opus-4-20250514",
+    model: "claude-haiku-4-5-20251001",
     max_tokens: 16000,
     system: [
       "You are a professional translator. You will receive a JSON object containing UI strings for a medical website.",

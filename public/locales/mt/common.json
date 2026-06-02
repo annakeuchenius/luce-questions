@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "orgName": "Lung Cancer Europe",
+    "languageLabel": "Lingwa"
+  },
+  "hero": {
+    "tag": "Input tal-Pazjenti u Kuraturi — 2026",
+    "headline": "Għinna biex nibnu asistent AI li tassew jifhem kif ijawweb il-mistoqsijiet tal-pazjenti",
+    "headlineEmphasis": "tassew jifhem",
+    "intro": "Lung Cancer Europe qed tiżviluppa l-LuCE Chatbot — asistent ta' informazzjoni fuq l-AI ddisinjat speċifikament għal pazjenti bil-kanċer tal-ġuħ u l-ħbieb qriba tagħhom. Biex nibnu xi ħaġa verament utli, rridu nsmgħu mingħandek: liema mistoqsijiet huma l-aktar importanti? X'tixwieq li kellek taf? X'jistaqsuh fil-fatt il-pazjenti u l-kuraturi?",
+    "cta": "Aqsam il-mistoqsijiet tiegħek",
+    "stat1Label": "Membri tal-Bord tal-Pazjenti u Kuraturi",
+    "stat1Value": "7",
+    "stat2Label": "Firxa Panewropea",
+    "stat2Value": "EU",
+    "stat3Label": "Sena tal-ħolqien",
+    "stat3Value": "2026"
+  },
+  "about": {
+    "tag": "Dwar il-proġett",
+    "heading": "Għalfejn il-mistoqsijiet tiegħek huma importanti",
+    "p1": "Dijanjosi ta' kanċer tal-ġuħ ġib bżonn immedját li tifhem — x'jfisser dan, x'jiġi l-ħabib, x'għandek taqsi lill-tabib. Iżda l-konsultazzjonijiet huma qosra, l-internet huwa qugħież, u ħafna informazzjoni online ma ddiktharet għal-persuna li tissetja bil-aħbar illum.",
+    "p2": "Il-poplu jifittxu risposti ċari u affidabbli kemm għall-mistoqsijiet fundamentali — dwar id-dijanjosi, il-staging, u l-għażliet tat-trattament — kif ukoll dawk persunali ħafna: il-post effetti, il-ħajja ta' kuljum, kif titkellem mal-familja, dak li trid timbati għall-appuntament.",
+    "p3": "Il-LuCE Chatbot qed jinbena madwar dawk il-mistoqsijiet — miġbura direttament mill-pazjenti, il-kuraturi, u l-professjonisti tal-kura tas-saħħa fl-Ewropa. Il-kontribuzzjoni tiegħek tifforma dak li jkopri mill-ewwel jum."
+  },
+  "howItWorks": {
+    "tag": "Kif jaħdem",
+    "heading": "X'jiġri mal-mistoqsijiet tiegħek",
+    "step1Title": "Int tressaq il-mistoqsijiet tiegħek",
+    "step1Desc": "Aqsam xi ħaġa li tixwieq taf dwal-kanċer tal-ġuħ — dijanjosi, trattament, post effetti, ħajja ta' kuljum, jew xi ħaġa oħra. Il-mistoqsijiet jistgħu jkunu fi kwalunkwe lingwa.",
+    "step2Title": "Nanalizzawha u nwaqqafuhom",
+    "step2Desc": "Il-tim tagħna jirrevedi l-iżmuni kollha, iqaggħad il-mistoqsijiet relatati flimkien, u jidentifika t-topiki li huma importanti li l-populazzjonijiet differenti tal-pazjenti.",
+    "step3Title": "Il-klinizzjani jivvalidaw il-rispostsi",
+    "step3Desc": "Esperti medikali u avukati tal-pazjenti jirrevdu l-mistoqsijiet waqqafin u jaħdmu flimkien biex jiżviluppaw risposti eżatti, affidabbli, u aċċessibbli.",
+    "step4Title": "Il-chatbot jinħoloq bil-input tiegħek fl-qalb tiegħu",
+    "step4Desc": "Il-LuCE Chatbot jinħoloq b'għarfien bażi mibnija minn mistoqsijiet pazjent reali — mhux assunzjonijiet. Il-kontribuzzjoni tiegħek tifforma dak li jaf mill-ewwel jum."
+  },
+  "form": {
+    "tag": "Aqsam il-mistoqsijiet tiegħek",
+    "heading": "X'trid tkun taf?",
+    "intro": "Aqsam il-mistoqsijiet li għandek — jew kellok — dwar il-kanċer tal-ġuħ. M'hemm l-ebda mistoqsija ħażina. Tista' tressaq kemm jibdillek, fi kwalunkwe lingwa.",
+    "privacyTitle": "Jekk jogħġbok m'aqsmx informazzjoni persunali jew medika",
+    "privacyBody": "Il-formola din hija għall-ġbir ta' mistoqsijiet ġenerali biss — mhux stejjer persunali, dijanjosi, riżultati tal-testji, jew dettalji tal-medisinali. Aqsi l-mistoqsija tiegħek b'termini ġenerali: \"X'inhuma l-post effetti ta' X?\" minflok \"Jien nkun nieħu X u nkun nagħti X.\" M'aqsmx l-isem tiegħek, il-posta elettronika, jew dettalji identifikattivi fi kwalunkwe mistoqsija.",
+    "roleLabel": "Jien",
+    "rolePlaceholder": "Agħżel ir-rwol tiegħek",
+    "roleOptions": {
+      "patient": "Pazjent",
+      "caregiver": "Kuratatur / membru tal-familja",
+      "nurse": "Infermieru",
+      "clinician": "Klinizzjan",
+      "researcher": "Riċerkatur",
+      "policyMaker": "Formulatur ta' politika",
+      "other": "Oħrajn"
+    },
+    "roleCustomLabel": "Jekk jogħġbok iddeskrivi r-rwol tiegħek",
+    "roleCustomPlaceholder": "Ir-rwol tiegħek",
+    "countryLabel": "Pajjiż",
+    "countryPlaceholder": "Agħżel il-pajjiż tiegħek",
+    "languageLabel": "Lingwa preferenzjali",
+    "languagePlaceholder": "Agħżel lingwa",
+    "languageOptions": {
+      "en": "Ingliż",
+      "de": "Ġermaniż",
+      "fr": "Franċiż",
+      "it": "Taljan",
+      "es": "Spanjol",
+      "nl": "Olandiż",
+      "pl": "Polonjan",
+      "sv": "Svedese",
+      "other": "Oħrajn"
+    },
+    "nameLabel": "Isem (fakultativu)",
+    "namePlaceholder": "L-isem tal-ewwel huwa sew",
+    "emailLabel": "Posta elettronika (fakultativu)",
+    "emailPlaceholder": "tiegħek@email.com",
+    "questionsLabel": "Il-mistoqsijiet tiegħek",
+    "questionsHint": "Aqsi b'termini ġenerali biss.",
+    "questionsHintWarning": "M'aqsmx dettalji medikali persunali, dijanjosi, jew informazzjoni identifikattiva.",
+    "questionPlaceholder": "Ikteb il-mistoqsija tiegħek hawn…",
+    "addButton": "Żid",
+    "removeQuestion": "Neħħi l-mistoqsija",
+    "mailingListLabel": "Iggħoddni mogħdi dwar il-LuCE Chatbot — nrid nsemgħ meta jinħoloq u kif nistax nittestjahu.",
+    "mailingListEmailReminder": "Biex tirċievi aġġornamenti, jekk jogħġbok żid l-indirizz tal-posta elettronika tiegħek hawn fuq.",
+    "mailingListEmailReminderLink": "żid l-indirizz tal-posta elettronika tiegħek",
+    "consentLabel": "Nifhem li l-mistoqsijiet tiegħi u l-informazzjoni demografika bażika se jkunu maħżuna b'sigurtà minn Lung Cancer Europe u jintużaw biss biex tinfirma l-iżvilupp tal-LuCE Chatbot. Ir-risposti tiegħi ma jkunu msaqqa pubblikament jew intużaw għal xi skop ieħor. Nikkonfirma li m'qamx inkludu l-ebda informazzjoni medika persunali fil-mistoqsijiet tiegħi.",
+    "consentPrivacyLink": "Politika tal-privatezza",
+    "submitButton": "AQSAM IL-MISTOQSIJIET TIEGĦI",
+    "submitting": "Qed naqsam…",
+    "validationMinQuestion": "Jekk jogħġbok żid tal-inqas mistoqsija waħda qabel ma tissottometti.",
+    "validationConsent": "Jekk jogħġbok ittikka l-kaxxa tal-kunsens biex tkompli.",
+    "validationEmail": "Jekk jogħġbok daħħal indirizz tal-posta elettronika validu."
+  },
+  "success": {
+    "heading": "Grazzi għall-kontribuzzjoni.",
+    "p1": "Il-mistoqsijiet tiegħek ġew ressaqin. Se nirevedu lil-ħmieġ bl-attenzjoni u jħalluh jifformaw dak li s-LuCE Chatbot jikopri l-ewwel.",
+    "p2": "Jekk intgħażilt għall-aġġornamenti, ħemmna nkun nikkuntattawk meta l-chatbot ikun lest għall-test."
+  },
+  "footer": {
+    "copyright": "© 2026 Lung Cancer Europe",
+    "privacyPolicy": "Politika tal-privatezza"
+  },
+  "countries": [
+    "Albanija", "Andorra", "Awstrija", "Belarussja", "Belġika", "Bosnija u Erzegovina",
+    "Bulgarija", "Kroazja", "Ċipru", "Ġek Repubblika", "Danimarka", "Estonija",
+    "Finlandja", "Franza", "Ġermanja", "Greċja", "Ungerija", "Islanda", "Irlanda",
+    "Italja", "Kosovar", "Latvija", "Liechtenstein", "Lituwanja", "Lussemburgu",
+    "Malta", "Moldavja", "Monaku", "Montenegru", "Olanda", "Makedonja ta' Fuq",
+    "Norveġja", "Polonja", "Portugall", "Rumanija", "Russja", "San Marino", "Serbja",
+    "Slovakkja", "Slovenja", "Spanja", "Svedja", "Svizzera", "Turkija", "Ukrajna",
+    "Renju Unit", "Vatikan Ċity", "Barra mill-Ewropa"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "orgName": "Lung Cancer Europe",
+    "languageLabel": "Valoda"
+  },
+  "hero": {
+    "tag": "Pacientu un aprūpētāju ieguldījums — 2026",
+    "headline": "Palīdziet mums izveidot AI asistenti, kas patiesi saprot, kā atbildēt pacientu jautājumiem",
+    "headlineEmphasis": "patiesi saprot",
+    "intro": "Lung Cancer Europe izstrādā LuCE Chatbot — AI-apstiprinātā informācijas asistenti, kas īpaši paredzēts plaušu vēža pacientiem un viņu tuviniekiem. Lai izveidotu kaut ko patiešām noderīgu, mums jādzird no jums: kādi jautājumi ir svarīgākie? Ko vēlētos zināt jau iepriekš? Ko pacenti un aprūpētāji patiešām jautā?",
+    "cta": "Dalieties ar saviem jautājumiem",
+    "stat1Label": "Pacientu un aprūpētāju padomes locekļi",
+    "stat1Value": "7",
+    "stat2Label": "Pāneiropeiska mēroga",
+    "stat2Value": "EU",
+    "stat3Label": "Palaišanas gads",
+    "stat3Value": "2026"
+  },
+  "about": {
+    "tag": "Par šo projektu",
+    "heading": "Kāpēc jūsu jautājumi ir svarīgi",
+    "p1": "Plaušu vēža diagnozi seko tūlīta nepieciešamība saprast — ko tas nozīmē, kas notiek tālāk, ko jautāt ārsting. Bet konsultācijas ir īsas, internets ir pārslogots, un lielākā daļa tiešsaistes informācijas nebija rakstīta cilvēkam, kurš šodien sēž ar šīm ziņām.",
+    "p2": "Cilvēki meklē skaidras un uzticamas atbildes gan uz fundamentāliem jautājumiem — par diagnozi, stadijas noteikšanu un ārstēšanas iespējām — gan uz dziļi personīgiem jautājumiem: blakusparādības, ikdiena, kā runāt ar ģimeni, ko aizstāvēt pārrunā.",
+    "p3": "LuCE Chatbot tiek veidots ap šiem jautājumiem — tos apkopojot tieši no pacientiem, aprūpētājiem un veselības aprūpes speciālistiem visā Eiropā. Jūsu ieguldījums ietekmē to, ko tas aptver no pirmās dienas."
+  },
+  "howItWorks": {
+    "tag": "Kā tas darbojas",
+    "heading": "Kas notiek ar jūsu jautājumiem",
+    "step1Title": "Jūs iesniegzat savus jautājumus",
+    "step1Desc": "Dalieties ar jebko, kas jūs interesē par plaušu vēzi — diagnozi, ārstēšanu, blakusparādībām, ikdienu vai kaut ko citu. Jautājumi var būt jebkurā valodā.",
+    "step2Title": "Mēs tos analizējam un grupējam",
+    "step2Desc": "Mūsu komanda pārbauda visus iesūtījumus, grupē saistītus jautājumus kopā un identificē tēmas, kas ir svarīgas dažādām pacientu populācijām.",
+    "step3Title": "Klīnicistu apstiprinātas atbildes",
+    "step3Desc": "Medicīnas eksperti un pacientu aizstāvji pārskata grupētos jautājumus un kopā strādā, lai izstrādātu precīzas, uzticamas un saprotamas atbildes.",
+    "step4Title": "Chatbot tiek palaists ar jūsu ieguldījumu tā pamatā",
+    "step4Desc": "LuCE Chatbot tiek palaists ar zināšanu bāzi, kas uzbūvēta no reāliem pacientu jautājumiem — nevis pieņēmumiem. Jūsu ieguldījums ietekmē to, ko tas zina no pirmās dienas."
+  },
+  "form": {
+    "tag": "Iesniedziet savus jautājumus",
+    "heading": "Ko jūs gribētu zināt?",
+    "intro": "Dalieties jautājumiem, kas jums ir — vai ir bijuši — par plaušu vēzi. Nav nepareizu jautājumu. Jūs varat iesniegt tik daudz, cik vēlaties, jebkurā valodā.",
+    "privacyTitle": "Lūdzu, nedalieties ar personīgo vai medicīnisko informāciju",
+    "privacyBody": "Šī forma ir paredzēta tikai vispārīgo jautājumu vākšanai — nevis personīgajiem stāstiem, diagnozēm, testu rezultātiem vai zāļu detaļām. Uzdodiet jautājumu vispārīgā veidā: \"Kādi ir X blakusparādības?\" nevis \"Es lietoju X un pieredzu Y.\" Neiekļaujiet savus nosaukumu, e-pastu vai nekādu identifikācijas datus savos jautājumos.",
+    "roleLabel": "Es esmu",
+    "rolePlaceholder": "Izvēlieties savu lomu",
+    "roleOptions": {
+      "patient": "Pacients",
+      "caregiver": "Aprūpētājs / ģimenes loceklis",
+      "nurse": "Medicīnas māsa",
+      "clinician": "Klīnicians",
+      "researcher": "Pētnieks",
+      "policyMaker": "Politikas veidotājs",
+      "other": "Cits"
+    },
+    "roleCustomLabel": "Lūdzu, aprakstiet savu lomu",
+    "roleCustomPlaceholder": "Jūsu loma",
+    "countryLabel": "Valsts",
+    "countryPlaceholder": "Izvēlieties savu valsti",
+    "languageLabel": "Vēlamā valoda",
+    "languagePlaceholder": "Izvēlieties valodu",
+    "languageOptions": {
+      "en": "Angļu",
+      "de": "Vācu",
+      "fr": "Franču",
+      "it": "Itāļu",
+      "es": "Spāņu",
+      "nl": "Holandiešu",
+      "pl": "Poļu",
+      "sv": "Zviedru",
+      "other": "Cita"
+    },
+    "nameLabel": "Vārds (neobligāti)",
+    "namePlaceholder": "Tikai vārds ir labi",
+    "emailLabel": "E-pasts (neobligāti)",
+    "emailPlaceholder": "tavs@epasts.com",
+    "questionsLabel": "Jūsu jautājumi",
+    "questionsHint": "Uzdodiet jautājumus tikai vispārīgā veidā.",
+    "questionsHintWarning": "Neiekļaujiet personīgos medicīniskos datus, diagnozi vai identifikācijas informāciju.",
+    "questionPlaceholder": "Ierakstiet savu jautājumu šeit…",
+    "addButton": "Pievienot",
+    "removeQuestion": "Noņemt jautājumu",
+    "mailingListLabel": "Turiet mani informētu par LuCE Chatbot — es vēlētos uzzināt, kad tas tiks palaists un kā to testēt.",
+    "mailingListEmailReminder": "Lai saņemtu jaunumus, lūdzu, pievienojiet savu e-pastu iepriekš.",
+    "mailingListEmailReminderLink": "pievienojiet savu e-pastu",
+    "consentLabel": "Es saprotu, ka mani jautājumi un pamatinformācija par demogrāfiskajiem datiem tiks droši glabāti Lung Cancer Europe un izmantoti tikai LuCE Chatbot izstrādes informatīvošanai. Manas atbildes netiks publiski dalītas vai izmantotas nolūkam. Es apstipriņu, ka savos jautājumos neesmu iekļāvis nekādu personīgo medicīnisko informāciju.",
+    "consentPrivacyLink": "Privātuma politika",
+    "submitButton": "IESNIEGT MANUS JAUTĀJUMUS",
+    "submitting": "Iesniedz…",
+    "validationMinQuestion": "Lūdzu, pievienojiet vismaz vienu jautājumu pirms iesniegšanas.",
+    "validationConsent": "Lūdzu, atzīmējiet piekrišanas izvēles rūtiņu, lai turpinātu.",
+    "validationEmail": "Lūdzu, ierakstiet derīgu e-pasta adresi."
+  },
+  "success": {
+    "heading": "Paldies par jūsu ieguldījumu.",
+    "p1": "Jūsu jautājumi ir iesniegti. Mēs tos rūpīgi pārbaudīsim un tie palīdzēs veidot, ko LuCE Chatbot pirmkārt aptvers.",
+    "p2": "Ja jūs piekritat atjauninājumiem, mēs sazināsimies ar jums, kad chatbot būs gatavs testēšanai."
+  },
+  "footer": {
+    "copyright": "© 2026 Lung Cancer Europe",
+    "privacyPolicy": "Privātuma politika"
+  },
+  "countries": [
+    "Albānija", "Andora", "Austrija", "Baltkrievija", "Beļģija", "Bosnija un Hercegovina",
+    "Bulgārija", "Horvātija", "Kipra", "Čehija", "Dānija", "Igaunija",
+    "Somija", "Francija", "Vācija", "Grieķija", "Ungārija", "Islande", "Īrija",
+    "Itālija", "Kosova", "Latvija", "Lihtenšteina", "Lietuva", "Luksemburga",
+    "Malta", "Moldova", "Monako", "Melnkalne", "Nīderlande", "Ziemeļmaķedonija",
+    "Norvēģija", "Polija", "Portugāle", "Rumānija", "Krievija", "Sanmarīno", "Serbija",
+    "Slovākija", "Slovēnija", "Spānija", "Zviedrija", "Šveice", "Turcija", "Ukraina",
+    "Apvienotā Karaliste", "Vatikāna", "Ārpus Eiropas"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "nav": {
+    "orgName": "Plaučių vėžio Europa",
+    "languageLabel": "Kalba"
+  },
+  "hero": {
+    "tag": "Pacientų ir globėjų nuomonė — 2026",
+    "headline": "Padėkite mums sukurti dirbtinio intelekto asistentą, kuris tikrai supranta, kaip atsakyti į pacientų klausimus",
+    "headlineEmphasis": "tikrai supranta",
+    "intro": "Plaučių vėžio Europa kuria LuCE Chatbot — dirbtinio intelekto varomą informacijos asistentą, specialiai sukurtą plaučių vėžio sergantiems pacientams ir jų artimiesiems. Norėdami sukurti kažką tikrai naudingo, turime išgirsti iš jūsų: kokie klausimai yra svarbiausias? Ko norėtumėte žinoti? Ką iš tikrųjų klausia pacientai ir globėjai?",
+    "cta": "Pasidalinkite savo klausimais",
+    "stat1Label": "Pacientų ir globėjų tarybos nariai",
+    "stat1Value": "7",
+    "stat2Label": "Viseuropinis reichas",
+    "stat2Value": "ES",
+    "stat3Label": "Paleidimo metai",
+    "stat3Value": "2026"
+  },
+  "about": {
+    "tag": "Apie šį projektą",
+    "heading": "Kodėl jūsų klausimai yra svarbūs",
+    "p1": "Plaučių vėžio diagnoza sukeliamą neatidėliotiną poreikį suprasti — ką tai reiškia, kas laukia toliau, ką paklausti gydytojo. Tačiau konsultacijos yra trumpos, internetas yra žiaurus, o dauguma internetinės informacijos nebuvo parašyta žmogui, kuris šiandien gauna tą žinią.",
+    "p2": "Žmonės siekia aiškių ir patikimų atsakymų tiek į pagrindinius klausimus — apie diagnozę, stadijavimą ir gydymo variantus — tiek į giliai asmenius: šalutinis poveikis, kasdieninė gyvenimą, kaip kalbėti su šeima, už ką reikia kovoti konsultacijoje.",
+    "p3": "LuCE Chatbot kuriamas aplink tuos klausimus — tiesiogiai surinktus iš pacientų, globėjų ir sveikatos priežiūros specialistų visoje Europoje. Jūsų indėlis nuo pirmos dienos formuoja tai, ką jis apims."
+  },
+  "howItWorks": {
+    "tag": "Kaip tai veikia",
+    "heading": "Kas nutinka su jūsų klausimais",
+    "step1Title": "Jūs pateikiate savo klausimus",
+    "step1Desc": "Pasidalinkite bet kokiais klausimais, kurie jums kilo apie plaučių vėžį — diagnozę, gydymą, šalutinius poveikius, kasdieninę gyvenimą arba kažką kitą. Klausimai gali būti bet kuria kalba.",
+    "step2Title": "Mes juos analizuojame ir grupuojame",
+    "step2Desc": "Mūsų komanda peržiūri visus pateikimus, sugrupuoja susijusius klausimus ir nustato temas, kurios yra svarbiausios skirtingoms pacientų grupėms.",
+    "step3Title": "Gydytojai patvirtina atsakymus",
+    "step3Desc": "Medicinos ekspertai ir pacientų advokатai peržiūri sugrupuotus klausimus ir bendradarbiauja rengdami tikslūs, patikimi ir prieinami atsakymai.",
+    "step4Title": "Chatbot paleidžiamas su jūsų indėliu jo širdyje",
+    "step4Desc": "LuCE Chatbot paleidžiamas su žinių baze, sukurta iš tikrų pacientų klausimų — ne iš prielaidų. Jūsų indėlis nuo pirmos dienos formuoja tai, ką jis žino."
+  },
+  "form": {
+    "tag": "Pateikite savo klausimus",
+    "heading": "Ką norėtumėte žinoti?",
+    "intro": "Pasidalinkite klausimais, kurie jums kilo — arba kilo — apie plaučių vėžį. Nėra neteisingo klausimo. Galite pateikti tiek klausimų, kiek norite, bet kuria kalba.",
+    "privacyTitle": "Prašome nenaudoti asmeninės arba medicininės informacijos",
+    "privacyBody": "Ši forma yra skirta tik bendriems klausimams rinkti — ne asmeninėms istorijoms, diagnozėms, tyrimo rezultatams arba vaistų detalėms. Užduokite savo klausimą bendriniais terminais: \"Kokie yra X šalutiniai poveikiai?\" o ne \"Vartau X ir jaučiu Y.\" Nepridėkite savo vardo, el. pašto arba jokių identifikavimo detalių savo klausimuose.",
+    "roleLabel": "Aš esu",
+    "rolePlaceholder": "Pasirinkite savo vaidmenį",
+    "roleOptions": {
+      "patient": "Pacientas",
+      "caregiver": "Globėjas / šeimos narys",
+      "nurse": "Slaugytoja",
+      "clinician": "Klinikas",
+      "researcher": "Tyrėjas",
+      "policyMaker": "Politikos formuotojas",
+      "other": "Kita"
+    },
+    "roleCustomLabel": "Prašome apibūdinti savo vaidmenį",
+    "roleCustomPlaceholder": "Jūsų vaidmuo",
+    "countryLabel": "Šalis",
+    "countryPlaceholder": "Pasirinkite šalį",
+    "languageLabel": "Pageidaujama kalba",
+    "languagePlaceholder": "Pasirinkite kalbą",
+    "languageOptions": {
+      "en": "Anglų",
+      "de": "Vokiečių",
+      "fr": "Prancūzų",
+      "it": "Italų",
+      "es": "Ispanų",
+      "nl": "Olandų",
+      "pl": "Lenkų",
+      "sv": "Švedų",
+      "other": "Kita"
+    },
+    "nameLabel": "Vardas (neprivaloma)",
+    "namePlaceholder": "Pakanka tik vardą",
+    "emailLabel": "El. paštas (neprivaloma)",
+    "emailPlaceholder": "jusu@elektroninispastas.com",
+    "questionsLabel": "Jūsų klausimai",
+    "questionsHint": "Užduokite klausimus bendriniais terminais.",
+    "questionsHintWarning": "Nepridėkite asmeninių medicininių detalių, diagnozių arba identifikavimo informacijos.",
+    "questionPlaceholder": "Čia įveskite savo klausimą…",
+    "addButton": "Pridėti",
+    "removeQuestion": "Pašalinti klausimą",
+    "mailingListLabel": "Likite informuoti apie LuCE Chatbot — norėčiau sužinoti, kada jis paleidžiamas ir kaip jį išbandyti.",
+    "mailingListEmailReminder": "Norėdami gauti atnaujinimus, pridėkite savo el. pašto adresą aukščiau.",
+    "mailingListEmailReminderLink": "pridėkite savo el. pašto adresą",
+    "consentLabel": "Suprantu, kad mano klausimai ir pagrindinė demografinė informacija bus saugiai saugoma Plaučių vėžio Europoje ir naudojama tik LuCE Chatbot plėtojimui. Mano atsakymai nebus viešai dalijami arba naudojami jokiam kitam tikslui. Patvirtinu, kad mano klausimuose nepadariau jokios asmeninės medicininės informacijos.",
+    "consentPrivacyLink": "Privatumo politika",
+    "submitButton": "PATEIKTI MANO KLAUSIMUS",
+    "submitting": "Siunčiama…",
+    "validationMinQuestion": "Prieš siunčiant, pridėkite bent vieną klausimą.",
+    "validationConsent": "Norėdami tęsti, pažymėkite sutikimo žymimąjį langelį.",
+    "validationEmail": "Įveskite galiojantį el. pašto adresą."
+  },
+  "success": {
+    "heading": "Dėkojame už jūsų indėlį.",
+    "p1": "Jūsų klausimai buvo pateikti. Juos atidžiai peržiūrėsime ir jie padės formuoti tai, ką LuCE Chatbot apims iš pirmo.",
+    "p2": "Jei pasirinkote gauti atnaujinimus, susisiekime su jumis, kai chatbot bus paruoštas išbandyti."
+  },
+  "footer": {
+    "copyright": "© 2026 Plaučių vėžio Europa",
+    "privacyPolicy": "Privatumo politika"
+  },
+  "countries": [
+    "Albanija", "Andora", "Austrija", "Baltarusija", "Belgija", "Bosnija ir Hercegovina",
+    "Bulgarija", "Kroatija", "Kipras", "Čekija", "Danija", "Estija",
+    "Suomija", "Prancūzija", "Vokietija", "Graikija", "Vengrija", "Islandija", "Airija",
+    "Italija", "Kosovas", "Latvija", "Lichtenšteinas", "Lietuva", "Liuksemburgas",
+    "Malta", "Moldavija", "Monakas", "Juodkalnija", "Nyderlandai", "Šiaurės Makedonija",
+    "Norvegija", "Lenkija", "Portugalija", "Rumunija", "Rusija", "San Marinas", "Serbija",
+    "Slovakija", "Slovenija", "Ispanija", "Švedija", "Šveicarija", "Turkija", "Ukraina",
+    "Jungtinė Karalystė", "Vatikanas", "Už Europos ribų"
+  ]
+}
