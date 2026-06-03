@@ -22,39 +22,24 @@ export default function Nav() {
       }}
     >
       {/* Logo */}
-      <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
-        {/* Gold square logomark */}
-        <div
-          style={{
-            width: "32px",
-            height: "32px",
-            background: "#f0c040",
-            borderRadius: "3px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            flexShrink: 0,
-          }}
-        >
-          <span
-            style={{
-              fontFamily: "Georgia, serif",
-              fontWeight: 700,
-              fontSize: "13px",
-              color: "#0a1628",
-              letterSpacing: "-0.5px",
-            }}
-          >
-            LuCE
-          </span>
-        </div>
+      <div
+        style={{
+          border: "1px solid rgba(240,192,64,0.3)",
+          borderRadius: "3px",
+          padding: "5px 12px",
+          display: "flex",
+          alignItems: "center",
+          flexShrink: 0,
+        }}
+      >
         <span
           style={{
-            color: "rgba(255,255,255,0.72)",
-            fontSize: "12px",
-            letterSpacing: "0.12em",
-            textTransform: "uppercase",
+            fontFamily: "Georgia, serif",
             fontWeight: 400,
+            fontSize: "11px",
+            color: "rgba(255,255,255,0.85)",
+            letterSpacing: "0.1em",
+            textTransform: "uppercase",
           }}
         >
           {t("nav.orgName")}
