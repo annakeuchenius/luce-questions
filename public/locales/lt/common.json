@@ -1,61 +1,62 @@
 {
   "nav": {
-    "orgName": "Plaučių vėžio Europa",
+    "orgName": "Lung Cancer Europe",
     "languageLabel": "Kalba"
   },
   "hero": {
-    "tag": "Pacientų ir globėjų nuomonė — 2026",
+    "tag": "Pacientų ir globėjų indėlis — 2026",
     "headline": "Padėkite mums sukurti dirbtinio intelekto asistentą, kuris tikrai supranta, kaip atsakyti į pacientų klausimus",
     "headlineEmphasis": "tikrai supranta",
-    "intro": "Plaučių vėžio Europa kuria LuCE Chatbot — dirbtinio intelekto varomą informacijos asistentą, specialiai sukurtą plaučių vėžio sergantiems pacientams ir jų artimiesiems. Norėdami sukurti kažką tikrai naudingo, turime išgirsti iš jūsų: kokie klausimai yra svarbiausias? Ko norėtumėte žinoti? Ką iš tikrųjų klausia pacientai ir globėjai?",
+    "intro": "Lung Cancer Europe plėtoja LuCE Chatbot — AI pagrindu grindžtą informacijos asistentą, specialiai sukurtą plaučių vėžio pacientams ir jų artimiesiems. Norėdami sukurti kažką tikrai naudingo, turime išgirsti jūsus: kokie klausimai yra svarbiausi? Ko norėtumėte būti žinoję? Kokius klausimus iš tikrųjų kelia pacientai ir globėjai?",
     "cta": "Pasidalinkite savo klausimais",
     "stat1Label": "Pacientų ir globėjų tarybos nariai",
     "stat1Value": "7",
-    "stat2Label": "Viseuropinis reichas",
+    "stat2Label": "Paneuropinis aprėpimas",
     "stat2Value": "ES",
     "stat3Label": "Paleidimo metai",
+    "statQuestionsLabel": "Pateikti klausimai",
     "stat3Value": "2026"
   },
   "about": {
     "tag": "Apie šį projektą",
     "heading": "Kodėl jūsų klausimai yra svarbūs",
-    "p1": "Plaučių vėžio diagnoza sukeliamą neatidėliotiną poreikį suprasti — ką tai reiškia, kas laukia toliau, ką paklausti gydytojo. Tačiau konsultacijos yra trumpos, internetas yra žiaurus, o dauguma internetinės informacijos nebuvo parašyta žmogui, kuris šiandien gauna tą žinią.",
-    "p2": "Žmonės siekia aiškių ir patikimų atsakymų tiek į pagrindinius klausimus — apie diagnozę, stadijavimą ir gydymo variantus — tiek į giliai asmenius: šalutinis poveikis, kasdieninė gyvenimą, kaip kalbėti su šeima, už ką reikia kovoti konsultacijoje.",
-    "p3": "LuCE Chatbot kuriamas aplink tuos klausimus — tiesiogiai surinktus iš pacientų, globėjų ir sveikatos priežiūros specialistų visoje Europoje. Jūsų indėlis nuo pirmos dienos formuoja tai, ką jis apims."
+    "p1": "Plaučių vėžio diagnoza sukelia tiesioginę poreikį suprasti — ką tai reiškia, kas bus toliau, ką paklausti gydytojo. Tačiau konsultacijos yra trumpos, internetas yra perkrautas, ir dauguma interneto informacijos nebuvo parašyta žmogui, kuris šiandien gauna šią žinią.",
+    "p2": "Pacientai ir globėjai ieško aiškių ir patikimų atsakymų tiek į pagrindinius klausimus — apie diagnozę, stadijų nustatymą ir gydymo variantus — tiek į labai asmeninius: šalutiniai reiškiniai, kasdieninis gyvenimas, kaip kalbėti su šeima, ką reikalauti pas gydytoją.",
+    "p3": "LuCE Chatbot yra kuriamas šiais klausimais paremtas — surinkti tiesiogiai iš pacientų, globėjų ir sveikatos apsaugos specialistų visoje Europoje. Jūsų indėlis formuoja tai, kuriame dirbtinis intelektas asistentui specializuosis."
   },
   "howItWorks": {
     "tag": "Kaip tai veikia",
-    "heading": "Kas nutinka su jūsų klausimais",
+    "heading": "Kas atsitinka su jūsų klausimais",
     "step1Title": "Jūs pateikiate savo klausimus",
-    "step1Desc": "Pasidalinkite bet kokiais klausimais, kurie jums kilo apie plaučių vėžį — diagnozę, gydymą, šalutinius poveikius, kasdieninę gyvenimą arba kažką kitą. Klausimai gali būti bet kuria kalba.",
+    "step1Desc": "Pasidalinkite bet kuo, apie ką jūs įdomavotės plaučių vėžio atžvilgiu — diagnozė, gydymas, šalutiniai reiškiniai, kasdieninis gyvenimas ar bet kas kita. Klausimai gali būti bet kuria kalba.",
     "step2Title": "Mes juos analizuojame ir grupuojame",
-    "step2Desc": "Mūsų komanda peržiūri visus pateikimus, sugrupuoja susijusius klausimus ir nustato temas, kurios yra svarbiausios skirtingoms pacientų grupėms.",
-    "step3Title": "Gydytojai patvirtina atsakymus",
-    "step3Desc": "Medicinos ekspertai ir pacientų advokатai peržiūri sugrupuotus klausimus ir bendradarbiauja rengdami tikslūs, patikimi ir prieinami atsakymai.",
+    "step2Desc": "Mūsų komanda peržiūri visus gautus klausimus, susigrupaviną susijusius klausimus ir nustato temas, kurios yra svarbios skirtingiems pacientų populiacijoms.",
+    "step3Title": "Klinikai patvirtina atsakymus",
+    "step3Desc": "Medicinos ekspertai ir pacientų advokатai peržiūri sugrupuotus klausimus ir bendradarbiauja, kad sukurtų tikslius, patikimus ir prieinamus atsakymus.",
     "step4Title": "Chatbot paleidžiamas su jūsų indėliu jo širdyje",
-    "step4Desc": "LuCE Chatbot paleidžiamas su žinių baze, sukurta iš tikrų pacientų klausimų — ne iš prielaidų. Jūsų indėlis nuo pirmos dienos formuoja tai, ką jis žino."
+    "step4Desc": "LuCE Chatbot paleidžiamas su žinių baze, sukurta iš tikrų pacientų klausimų — ne prielaidų. Jūsų indėlis nuo pat pirmosios dienos formuoja tai, ką jis žino."
   },
   "form": {
     "tag": "Pateikite savo klausimus",
-    "heading": "Ką norėtumėte žinoti?",
-    "intro": "Pasidalinkite klausimais, kurie jums kilo — arba kilo — apie plaučių vėžį. Nėra neteisingo klausimo. Galite pateikti tiek klausimų, kiek norite, bet kuria kalba.",
-    "privacyTitle": "Prašome nenaudoti asmeninės arba medicininės informacijos",
-    "privacyBody": "Ši forma yra skirta tik bendriems klausimams rinkti — ne asmeninėms istorijoms, diagnozėms, tyrimo rezultatams arba vaistų detalėms. Užduokite savo klausimą bendriniais terminais: \"Kokie yra X šalutiniai poveikiai?\" o ne \"Vartau X ir jaučiu Y.\" Nepridėkite savo vardo, el. pašto arba jokių identifikavimo detalių savo klausimuose.",
+    "heading": "Ką jūs norite sužinoti?",
+    "intro": "Pasidalinkite klausimais, kuriuos turite — arba turėjote — apie plaučių vėžį. Nėra jokių klaidų klausimų. Jūs galite pateikti tiek klausimų, kiek norite, bet kuria kalba.",
+    "privacyTitle": "Prašome nedalintis asmenine ar medicininę informacija",
+    "privacyBody": "Ši forma skirta tik bendriems klausimams rinkti — ne asmeninėms istorijoms, diagnozėms, tyrimų rezultatams ar vaistų detalėms. Užduokite savo klausimą bendriniais terminais: \"Kokie yra X šalutiniai reiškiniai?\" o ne \"Aš vartoju X ir patyriau Y.\" Neįtraukite savo vardo, el. pašto ar jokios identifikavimo informacijos į savo klausimus.",
     "roleLabel": "Aš esu",
     "rolePlaceholder": "Pasirinkite savo vaidmenį",
     "roleOptions": {
       "patient": "Pacientas",
       "caregiver": "Globėjas / šeimos narys",
       "nurse": "Slaugytoja",
-      "clinician": "Klinikas",
-      "researcher": "Tyrėjas",
+      "clinician": "Klininis specialistas",
+      "researcher": "Tyrinėtojas",
       "policyMaker": "Politikos formuotojas",
       "other": "Kita"
     },
-    "roleCustomLabel": "Prašome apibūdinti savo vaidmenį",
+    "roleCustomLabel": "Prašome aprašyti savo vaidmenį",
     "roleCustomPlaceholder": "Jūsų vaidmuo",
     "countryLabel": "Šalis",
-    "countryPlaceholder": "Pasirinkite šalį",
+    "countryPlaceholder": "Pasirinkite savo šalį",
     "languageLabel": "Pageidaujama kalba",
     "languagePlaceholder": "Pasirinkite kalbą",
     "languageOptions": {
@@ -69,34 +70,39 @@
       "sv": "Švedų",
       "other": "Kita"
     },
-    "nameLabel": "Vardas (neprivaloma)",
-    "namePlaceholder": "Pakanka tik vardą",
-    "emailLabel": "El. paštas (neprivaloma)",
-    "emailPlaceholder": "jusu@elektroninispastas.com",
+    "firstNameLabel": "Vardas (nebūtina)",
+    "firstNamePlaceholder": "Vardas",
+    "lastNameLabel": "Pavardė (nebūtina)",
+    "lastNamePlaceholder": "Pavardė",
+    "emailLabel": "El. paštas (nebūtina)",
+    "emailPlaceholder": "jusu@el.pastas.com",
+    "anythingElseLabel": "Ar yra dar ką, ką norėtumėte, kad žinotume?",
+    "anythingElsePlaceholder": "Laisvai pasidalinkite bet kokiu kontekstu, mintimis ar be to dar kas jums kyla į galvą…",
     "questionsLabel": "Jūsų klausimai",
-    "questionsHint": "Užduokite klausimus bendriniais terminais.",
-    "questionsHintWarning": "Nepridėkite asmeninių medicininių detalių, diagnozių arba identifikavimo informacijos.",
-    "questionPlaceholder": "Čia įveskite savo klausimą…",
+    "questionsHint": "Užduokite klausimus tik bendriniais terminais.",
+    "questionsHintWarning": "Neįtraukite asmeninės medicininės informacijos, diagnozių ar identifikavimo duomenų.",
+    "questionPlaceholder": "Čia įrašykite savo klausimą…",
     "addButton": "Pridėti",
     "removeQuestion": "Pašalinti klausimą",
-    "mailingListLabel": "Likite informuoti apie LuCE Chatbot — norėčiau sužinoti, kada jis paleidžiamas ir kaip jį išbandyti.",
-    "mailingListEmailReminder": "Norėdami gauti atnaujinimus, pridėkite savo el. pašto adresą aukščiau.",
+    "mailingListLabel": "Prašau mane informuoti apie LuCE Chatbot — norėčiau sužinoti, kada jis bus paleistas ir kaip jį testuoti.",
+    "mailingListEmailReminder": "Norėdami gauti atnaujinimus, prašome aukščiau pridėti savo el. pašto adresą.",
     "mailingListEmailReminderLink": "pridėkite savo el. pašto adresą",
-    "consentLabel": "Suprantu, kad mano klausimai ir pagrindinė demografinė informacija bus saugiai saugoma Plaučių vėžio Europoje ir naudojama tik LuCE Chatbot plėtojimui. Mano atsakymai nebus viešai dalijami arba naudojami jokiam kitam tikslui. Patvirtinu, kad mano klausimuose nepadariau jokios asmeninės medicininės informacijos.",
+    "consentLabel": "Aš suprantu, kad mano klausimai ir pagrindinė demografinė informacija bus saugiai saugomi Lung Cancer Europe ir naudojami tik LuCE Chatbot plėtojimui. Mano atsakymai nebus viešai pasidalinti arba naudojami jokiam kitam tikslui. Patvirtinu, kad nesu įtraukęs jokios asmeninės medicininės informacijos į savo klausimus.",
     "consentPrivacyLink": "Privatumo politika",
     "submitButton": "PATEIKTI MANO KLAUSIMUS",
     "submitting": "Siunčiama…",
-    "validationMinQuestion": "Prieš siunčiant, pridėkite bent vieną klausimą.",
-    "validationConsent": "Norėdami tęsti, pažymėkite sutikimo žymimąjį langelį.",
-    "validationEmail": "Įveskite galiojantį el. pašto adresą."
+    "validationMinQuestion": "Prašome pridėti bent vieną klausimą prieš pateikdami.",
+    "validationConsent": "Prašome pažymėti sutikimo žymės langelį, kad tęstumėte.",
+    "validationEmailRequired": "Jūs sutikote gauti atnaujinimus — prašome pridėti savo el. pašto adresą, kad galėtume su jumis susisiekti.",
+    "validationEmail": "Prašome įvesti galiojantį el. pašto adresą."
   },
   "success": {
-    "heading": "Dėkojame už jūsų indėlį.",
-    "p1": "Jūsų klausimai buvo pateikti. Juos atidžiai peržiūrėsime ir jie padės formuoti tai, ką LuCE Chatbot apims iš pirmo.",
-    "p2": "Jei pasirinkote gauti atnaujinimus, susisiekime su jumis, kai chatbot bus paruoštas išbandyti."
+    "heading": "Ačiū už jūsų indėlį.",
+    "p1": "Jūsų klausimai buvo pateikti. Mes juos atidžiai peržiūrėsime, ir jie padės nustatyti, ką LuCE Chatbot pirmiausia aprėps.",
+    "p2": "Jei sutikote gauti atnaujinimus, mes susisiekime su jumis, kai chatbot bus pasirengęs testavimui."
   },
   "footer": {
-    "copyright": "© 2026 Plaučių vėžio Europa",
+    "copyright": "© 2026 Lung Cancer Europe",
     "privacyPolicy": "Privatumo politika"
   },
   "countries": [
@@ -106,7 +112,7 @@
     "Italija", "Kosovas", "Latvija", "Lichtenšteinas", "Lietuva", "Liuksemburgas",
     "Malta", "Moldavija", "Monakas", "Juodkalnija", "Nyderlandai", "Šiaurės Makedonija",
     "Norvegija", "Lenkija", "Portugalija", "Rumunija", "Rusija", "San Marinas", "Serbija",
-    "Slovakija", "Slovenija", "Ispanija", "Švedija", "Šveicarija", "Turkija", "Ukraina",
-    "Jungtinė Karalystė", "Vatikanas", "Už Europos ribų"
+    "Slovakija", "Slovėnija", "Ispanija", "Švedija", "Šveicarija", "Turkija", "Ukraina",
+    "Jungtinė Karalystė", "Vatikano Miestasvalstybė", "Už Europos ribų"
   ]
 }
