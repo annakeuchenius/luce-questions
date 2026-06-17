@@ -4,8 +4,6 @@ import { Resend } from "resend";
 import { createQuestionRow } from "@/lib/notion";
 import { getConfirmationEmail } from "@/lib/emails/confirmation";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 const FROM =
   process.env.RESEND_FROM_EMAIL ??
   "onboarding@resend.dev";
@@ -93,6 +91,7 @@ export async function POST(req: NextRequest) {
     // Send confirmation email if the user provided an address
     if (email) {
       try {
+        const resend = new Resend(process.env.RESEND_API_KEY);
         const { subject, html, text } = getConfirmationEmail({
           language: uiLanguage,
           firstName,
