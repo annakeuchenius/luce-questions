@@ -160,16 +160,44 @@ async function translateLanguage(lang) {
   const cleaned = raw.replace(/^```(?:json)?\n?/, "").replace(/\n?```$/, "").trim();
 
   // Validate JSON before writing
+  let parsed;
   try {
-    JSON.parse(cleaned);
+    parsed = JSON.parse(cleaned);
   } catch (e) {
     console.error(`❌  ${lang.code}: received invalid JSON. Skipping. Error: ${e.message}`);
     console.error("Raw response (first 500 chars):", raw.slice(0, 500));
     return;
   }
 
+  // ── Language-specific post-processing ──────────────────────────────────────
+  if (lang.code === "nl") {
+    // LuCE uses "naasten" (loved ones) rather than "verzorger(s)" (caregiver)
+    const fix = (s) =>
+      typeof s === "string"
+        ? s
+            .replace(/Verzorger \/ familielid/g, "Naaste / familielid")
+            .replace(/verzorgers/gi, "naasten")
+            .replace(/verzorger/gi, "naaste")
+            .replace(/Patiënt- & verzorgerinvoer/g, "Patiënten & naasten")
+            .replace(/Patiënt- & verzorgerscollege/g, "Patiënten- & naastencollege")
+        : s;
+
+    const fixObj = (obj) => {
+      if (typeof obj === "string") return fix(obj);
+      if (Array.isArray(obj)) return obj.map(fixObj);
+      if (obj && typeof obj === "object") {
+        return Object.fromEntries(Object.entries(obj).map(([k, v]) => [k, fixObj(v)]));
+      }
+      return obj;
+    };
+
+    parsed = fixObj(parsed);
+    console.log(`🔧  nl: applied Dutch terminology fixes (verzorger → naaste)`);
+  }
+  // ───────────────────────────────────────────────────────────────────────────
+
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
-  fs.writeFileSync(outPath, cleaned + "\n", "utf8");
+  fs.writeFileSync(outPath, JSON.stringify(parsed, null, 2) + "\n", "utf8");
   console.log(`✅  ${lang.code} (${lang.name}): written to ${outPath}`);
 }
 

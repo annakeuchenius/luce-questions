@@ -4,12 +4,12 @@
     "languageLabel": "Taal"
   },
   "hero": {
-    "tag": "Patiënt- & verzorgerinvoer — 2026",
+    "tag": "Patiënten & naasten — 2026",
     "headline": "Help ons een AI-assistent te bouwen die echt begrijpt hoe je vragen van longkankerpatiënten moet beantwoorden",
     "headlineEmphasis": "echt begrijpt",
-    "intro": "Lung Cancer Europe, Europas toonaangevend netwerk van longkankerpatientorganisaties, ontwikkelt een longkankerchatbot — een AI-aangedreven informatieassistent speciaal ontworpen voor longkankerpatiënten en hun naasten. Om iets werkelijk nuttigs te creëren, willen we graag van jou horen: welke vragen zijn het belangrijkst? Wat wens je eerder te hebben geweten? Wat vragen patiënten en verzorgers werkelijk?",
+    "intro": "Lung Cancer Europe, Europas toonaangevend netwerk van longkankerpatientorganisaties, ontwikkelt een longkankerchatbot — een AI-aangedreven informatieassistent speciaal ontworpen voor longkankerpatiënten en hun naasten. Om iets werkelijk nuttigs te creëren, willen we graag van jou horen: welke vragen zijn het belangrijkst? Wat wens je eerder te hebben geweten? Wat vragen patiënten en hun naasten werkelijk?",
     "cta": "Deel je vragen",
-    "stat1Label": "Leden van het Patiënt- & verzorgerscollege",
+    "stat1Label": "Leden van het Patiënten- & naastencollege",
     "stat1Value": "7",
     "stat2Label": "Pan-Europees bereik",
     "stat2Value": "EU",
@@ -21,8 +21,8 @@
     "tag": "Over dit project",
     "heading": "Waarom jouw vragen belangrijk zijn",
     "p1": "Een longkankerdiagnose brengt een onmiddellijke behoefte met zich mee om te begrijpen — wat dit betekent, wat er nu volgt, wat je de arts moet vragen. Maar consulten zijn kort, het internet is overweldigend, en de meeste online informatie was niet geschreven voor de persoon die vandaag met dit bericht zit.",
-    "p2": "Patiënten en verzorgers zoeken duidelijke en betrouwbare antwoorden op zowel fundamentele vragen — over diagnose, stadiëring en behandelopties — als diep persoonlijke vragen: bijwerkingen, dagelijks leven, hoe je met je familie erover praat, wat je in een afspraak moet bereiken.",
-    "p3": "De longkankerchatbot (naam volgt binnenkort!) wordt gebouwd rond die vragen — rechtstreeks verzameld van patiënten, verzorgers en zorgprofessionals in heel Europa. Jouw bijdrage bepaalt waarop onze AI-assistent zich zal specialiseren.",
+    "p2": "Patiënten en hun naasten zoeken duidelijke en betrouwbare antwoorden op zowel fundamentele vragen — over diagnose, stadiëring en behandelopties — als diep persoonlijke vragen: bijwerkingen, dagelijks leven, hoe je met je familie erover praat, wat je in een afspraak moet bereiken.",
+    "p3": "De longkankerchatbot (naam volgt binnenkort!) wordt gebouwd rond die vragen — rechtstreeks verzameld van patiënten, hun naasten en zorgprofessionals in heel Europa. Jouw bijdrage bepaalt waarop onze AI-assistent zich zal specialiseren.",
     "readMore": "Lees meer",
     "readLess": "Lees minder"
   },
@@ -48,7 +48,7 @@
     "rolePlaceholder": "Selecteer je rol",
     "roleOptions": {
       "patient": "Patiënt",
-      "caregiver": "Verzorger / familielid",
+      "caregiver": "Naaste / familielid",
       "nurse": "Verpleegkundige",
       "clinician": "Clinicus",
       "researcher": "Onderzoeker",
