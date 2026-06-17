@@ -63,6 +63,18 @@ const TARGET_LANGS = [
 const LOCALES_DIR = path.resolve(__dirname, "../public/locales");
 const FORCE = process.argv.includes("--force");
 
+// --lang de,fr,it  → only translate those codes
+const langArg = process.argv.find((a) => a.startsWith("--lang="));
+const ONLY_LANGS = langArg
+  ? langArg.replace("--lang=", "").split(",").map((s) => s.trim())
+  : null;
+
+// --skip de,fr  → translate everything except those codes
+const skipArg = process.argv.find((a) => a.startsWith("--skip="));
+const SKIP_LANGS = skipArg
+  ? skipArg.replace("--skip=", "").split(",").map((s) => s.trim())
+  : null;
+
 const enPath = path.join(LOCALES_DIR, "en", "common.json");
 if (!fs.existsSync(enPath)) {
   console.error(`❌  English base file not found at ${enPath}`);
@@ -162,9 +174,20 @@ async function translateLanguage(lang) {
 }
 
 async function main() {
-  console.log(`\nGenerating translations for ${TARGET_LANGS.length} languages…\n`);
+  const langs = ONLY_LANGS
+    ? TARGET_LANGS.filter((l) => ONLY_LANGS.includes(l.code))
+    : SKIP_LANGS
+    ? TARGET_LANGS.filter((l) => !SKIP_LANGS.includes(l.code))
+    : TARGET_LANGS;
 
-  for (const lang of TARGET_LANGS) {
+  if (ONLY_LANGS && langs.length === 0) {
+    console.error(`❌  No matching languages found for: ${ONLY_LANGS.join(", ")}`);
+    process.exit(1);
+  }
+
+  console.log(`\nGenerating translations for ${langs.length} language(s)…\n`);
+
+  for (const lang of langs) {
     await translateLanguage(lang);
   }
 
