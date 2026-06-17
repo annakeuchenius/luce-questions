@@ -15,9 +15,9 @@ export default function HowItWorks() {
   return (
     <section
       style={{
-        borderTop: "1px solid rgba(255,255,255,0.08)",
+        borderTop: "1px solid rgba(26,26,46,0.08)",
         padding: "80px 24px",
-        background: "rgba(255,255,255,0.02)",
+        background: "#f2f0ea",
       }}
     >
       <div style={{ maxWidth: "760px", margin: "0 auto" }}>
@@ -28,7 +28,7 @@ export default function HowItWorks() {
               fontSize: "11px",
               letterSpacing: "0.14em",
               textTransform: "uppercase",
-              color: "#f0c040",
+              color: "#8a6800",
             }}
           >
             {t("howItWorks.tag")}
@@ -40,7 +40,7 @@ export default function HowItWorks() {
             fontFamily: "Georgia, 'Times New Roman', serif",
             fontWeight: 400,
             fontSize: "clamp(22px, 3vw, 32px)",
-            color: "#ffffff",
+            color: "#1a1a2e",
             margin: "0 0 48px",
             lineHeight: 1.3,
           }}
@@ -64,19 +64,19 @@ export default function HowItWorks() {
                 alignItems: "flex-start",
               }}
             >
-              {/* Gold circle number */}
+              {/* Amber circle number */}
               <div
                 style={{
                   width: "36px",
                   height: "36px",
                   borderRadius: "50%",
-                  background: "rgba(240,192,64,0.12)",
-                  border: "1px solid rgba(240,192,64,0.4)",
+                  background: "rgba(180,140,0,0.1)",
+                  border: "1px solid rgba(180,140,0,0.35)",
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
                   flexShrink: 0,
-                  color: "#f0c040",
+                  color: "#8a6800",
                   fontSize: "14px",
                   fontFamily: "Georgia, serif",
                 }}
@@ -88,7 +88,7 @@ export default function HowItWorks() {
                   style={{
                     fontSize: "15px",
                     fontWeight: 600,
-                    color: "#ffffff",
+                    color: "#1a1a2e",
                     marginBottom: "8px",
                     lineHeight: 1.3,
                   }}
@@ -99,7 +99,7 @@ export default function HowItWorks() {
                   style={{
                     fontSize: "14px",
                     lineHeight: 1.65,
-                    color: "rgba(255,255,255,0.55)",
+                    color: "rgba(26,26,46,0.6)",
                   }}
                 >
                   {t(step.descKey)}

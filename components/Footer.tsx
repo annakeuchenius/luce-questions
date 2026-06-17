@@ -8,30 +8,31 @@ export default function Footer() {
   return (
     <footer
       style={{
-        borderTop: "1px solid rgba(255,255,255,0.08)",
+        borderTop: "1px solid rgba(26,26,46,0.08)",
         padding: "24px",
         display: "flex",
         justifyContent: "space-between",
         alignItems: "center",
         flexWrap: "wrap",
         gap: "12px",
+        background: "#f2f0ea",
       }}
     >
-      <span style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)" }}>
+      <span style={{ fontSize: "13px", color: "rgba(26,26,46,0.4)" }}>
         {t("footer.copyright")}
       </span>
       <a
         href="#"
         style={{
           fontSize: "13px",
-          color: "rgba(255,255,255,0.4)",
+          color: "rgba(26,26,46,0.4)",
           textDecoration: "none",
         }}
         onMouseEnter={(e) => {
-          (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.7)";
+          (e.currentTarget as HTMLElement).style.color = "rgba(26,26,46,0.7)";
         }}
         onMouseLeave={(e) => {
-          (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.4)";
+          (e.currentTarget as HTMLElement).style.color = "rgba(26,26,46,0.4)";
         }}
       >
         {t("footer.privacyPolicy")}

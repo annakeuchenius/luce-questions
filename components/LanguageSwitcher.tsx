@@ -7,7 +7,10 @@ import { useState, useRef, useEffect } from "react";
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation();
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => { setMounted(true); }, []);
 
   const current = SUPPORTED_LANGUAGES.find((l) => l.code === i18n.language)
     ?? SUPPORTED_LANGUAGES[0];
@@ -35,9 +38,9 @@ export default function LanguageSwitcher() {
       <button
         onClick={() => setOpen((o) => !o)}
         style={{
-          background: open ? "rgba(240,192,64,0.12)" : "rgba(255,255,255,0.06)",
-          border: "1px solid rgba(240,192,64,0.4)",
-          color: "#f0c040",
+          background: open ? "rgba(180,140,0,0.1)" : "rgba(180,140,0,0.06)",
+          border: "1px solid rgba(180,140,0,0.35)",
+          color: "#8a6800",
           padding: "8px 18px",
           fontSize: "14px",
           fontWeight: 500,
@@ -50,16 +53,16 @@ export default function LanguageSwitcher() {
           transition: "background 0.15s, border-color 0.15s",
         }}
         onMouseEnter={(e) => {
-          (e.currentTarget as HTMLElement).style.background = "rgba(240,192,64,0.15)";
+          (e.currentTarget as HTMLElement).style.background = "rgba(180,140,0,0.12)";
         }}
         onMouseLeave={(e) => {
-          (e.currentTarget as HTMLElement).style.background = open ? "rgba(240,192,64,0.12)" : "rgba(255,255,255,0.06)";
+          (e.currentTarget as HTMLElement).style.background = open ? "rgba(180,140,0,0.1)" : "rgba(180,140,0,0.06)";
         }}
         aria-haspopup="listbox"
         aria-expanded={open}
       >
         <span style={{ fontSize: "16px" }}>🌐</span>
-        {current.label}
+        <span suppressHydrationWarning>{mounted ? current.label : SUPPORTED_LANGUAGES[0].label}</span>
         <span style={{ fontSize: "10px", opacity: 0.7 }}>▼</span>
       </button>
       {open && (
@@ -69,8 +72,8 @@ export default function LanguageSwitcher() {
             position: "absolute",
             right: 0,
             top: "calc(100% + 4px)",
-            background: "#0f1f3a",
-            border: "1px solid rgba(255,255,255,0.15)",
+            background: "#ffffff",
+            border: "1px solid rgba(26,26,46,0.12)",
             borderRadius: "3px",
             minWidth: "160px",
             margin: 0,
@@ -79,6 +82,7 @@ export default function LanguageSwitcher() {
             zIndex: 100,
             maxHeight: "320px",
             overflowY: "auto",
+            boxShadow: "0 4px 16px rgba(26,26,46,0.1)",
           }}
         >
           {SUPPORTED_LANGUAGES.map((lang) => (
@@ -92,12 +96,13 @@ export default function LanguageSwitcher() {
                 fontSize: "13px",
                 cursor: "pointer",
                 color: lang.code === i18n.language
-                  ? "#f0c040"
-                  : "rgba(255,255,255,0.72)",
+                  ? "#8a6800"
+                  : "rgba(26,26,46,0.72)",
                 background: "none",
+                fontWeight: lang.code === i18n.language ? 600 : 400,
               }}
               onMouseEnter={(e) => {
-                (e.currentTarget as HTMLElement).style.background = "rgba(255,255,255,0.06)";
+                (e.currentTarget as HTMLElement).style.background = "rgba(26,26,46,0.04)";
               }}
               onMouseLeave={(e) => {
                 (e.currentTarget as HTMLElement).style.background = "none";

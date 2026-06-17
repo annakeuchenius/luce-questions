@@ -13,10 +13,9 @@ export default function Hero() {
       .then((d) => { if (d.count !== null) setQuestionCount(d.count); })
       .catch(() => {});
   }, []);
+
   const headline: string = t("hero.headline");
   const emphasis: string = t("hero.headlineEmphasis");
-
-  // Split headline around the emphasis word(s)
   const parts = headline.split(emphasis);
 
   function scrollToForm() {
@@ -38,7 +37,7 @@ export default function Hero() {
             fontSize: "11px",
             letterSpacing: "0.14em",
             textTransform: "uppercase",
-            color: "#f0c040",
+            color: "#8a6800",
             fontWeight: 400,
           }}
         >
@@ -53,12 +52,12 @@ export default function Hero() {
           fontWeight: 400,
           fontSize: "clamp(28px, 4vw, 44px)",
           lineHeight: 1.25,
-          color: "#ffffff",
+          color: "#1a1a2e",
           margin: "0 0 28px",
         }}
       >
         {parts[0]}
-        <em style={{ color: "#f0c040", fontStyle: "italic" }}>{emphasis}</em>
+        <em style={{ color: "#c8980a", fontStyle: "italic" }}>{emphasis}</em>
         {parts[1]}
       </h1>
 
@@ -67,7 +66,7 @@ export default function Hero() {
         style={{
           fontSize: "17px",
           lineHeight: 1.7,
-          color: "rgba(255,255,255,0.72)",
+          color: "rgba(26,26,46,0.88)",
           margin: "0 0 36px",
           maxWidth: "640px",
         }}
@@ -80,7 +79,7 @@ export default function Hero() {
         onClick={scrollToForm}
         style={{
           background: "#f0c040",
-          color: "#0a1628",
+          color: "#1a1a2e",
           border: "none",
           padding: "14px 32px",
           fontSize: "14px",
@@ -105,7 +104,7 @@ export default function Hero() {
         style={{
           marginTop: "56px",
           paddingTop: "32px",
-          borderTop: "1px solid rgba(255,255,255,0.08)",
+          borderTop: "1px solid rgba(26,26,46,0.1)",
           display: "flex",
           gap: "32px",
           flexWrap: "wrap",
@@ -119,26 +118,27 @@ export default function Hero() {
           <div
             key={i}
             style={{
-              background: "rgba(255,255,255,0.06)",
-              border: "1px solid rgba(255,255,255,0.15)",
+              background: "#ffffff",
+              border: "1px solid rgba(26,26,46,0.1)",
               borderRadius: "3px",
               padding: "12px 20px",
               display: "flex",
               alignItems: "center",
               gap: "10px",
+              boxShadow: "0 1px 3px rgba(26,26,46,0.05)",
             }}
           >
             <span
               style={{
                 fontSize: "20px",
                 fontFamily: "Georgia, serif",
-                color: "#f0c040",
+                color: "#8a6800",
                 fontWeight: 400,
               }}
             >
               {stat.value}
             </span>
-            <span style={{ fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
+            <span style={{ fontSize: "13px", color: "rgba(26,26,46,0.5)" }}>
               {stat.label}
             </span>
           </div>

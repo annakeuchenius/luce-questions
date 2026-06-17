@@ -97,13 +97,13 @@ export async function createQuestionRow(data: QuestionRowData): Promise<void> {
       rich_text: [{ text: { content: data.lastName } }],
     };
   }
-  if (data.email) {
-    properties["Email"] = { email: data.email };
-  }
   if (data.anythingElse) {
     properties["Anything else"] = {
       rich_text: [{ text: { content: data.anythingElse } }],
     };
+  }
+  if (data.email) {
+    properties["Email"] = { email: data.email };
   }
 
   await notion.pages.create({

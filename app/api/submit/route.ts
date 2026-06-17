@@ -1,6 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { v4 as uuidv4 } from "uuid";
+import { Resend } from "resend";
 import { createQuestionRow } from "@/lib/notion";
+import { getConfirmationEmail } from "@/lib/emails/confirmation";
+
+const resend = new Resend(process.env.RESEND_API_KEY);
+
+const FROM =
+  process.env.RESEND_FROM_EMAIL ??
+  "onboarding@resend.dev";
 
 export async function POST(req: NextRequest) {
   let body: {
@@ -81,6 +89,30 @@ export async function POST(req: NextRequest) {
         })
       )
     );
+
+    // Send confirmation email if the user provided an address
+    if (email) {
+      try {
+        const { subject, html, text } = getConfirmationEmail({
+          language: uiLanguage,
+          firstName,
+          lastName,
+          mailingListOptIn,
+        });
+
+        await resend.emails.send({
+          from: `Lung Cancer Europe Chatbot Team <${FROM}>`,
+          to: email,
+          replyTo: "anna.keuchenius@lungcancereurope.eu",
+          subject,
+          html,
+          text,
+        });
+      } catch (emailErr) {
+        // Never fail the submission because of an email error — just log it
+        console.error("Confirmation email failed:", emailErr);
+      }
+    }
 
     return NextResponse.json({ success: true });
   } catch (err) {

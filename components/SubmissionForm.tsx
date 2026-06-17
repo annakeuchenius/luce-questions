@@ -18,12 +18,12 @@ const EUROPEAN_COUNTRIES = [
 
 const inputStyle: React.CSSProperties = {
   width: "100%",
-  background: "rgba(255,255,255,0.05)",
-  border: "1px solid rgba(255,255,255,0.15)",
+  background: "#ffffff",
+  border: "1px solid rgba(26,26,46,0.18)",
   borderRadius: "3px",
   padding: "10px 14px",
   fontSize: "14px",
-  color: "#ffffff",
+  color: "#1a1a2e",
   outline: "none",
   appearance: "none" as const,
 };
@@ -31,7 +31,7 @@ const inputStyle: React.CSSProperties = {
 const labelStyle: React.CSSProperties = {
   display: "block",
   fontSize: "12px",
-  color: "rgba(255,255,255,0.5)",
+  color: "rgba(26,26,46,0.75)",
   marginBottom: "6px",
   textTransform: "uppercase",
   letterSpacing: "0.08em",
@@ -56,6 +56,7 @@ export default function SubmissionForm() {
   const { t, i18n } = useTranslation();
 
   const [questions, setQuestions] = useState<string[]>([]);
+  const [draft, setDraft] = useState("");
   const [role, setRole] = useState("");
   const [roleCustom, setRoleCustom] = useState("");
   const [country, setCountry] = useState("");
@@ -74,17 +75,17 @@ export default function SubmissionForm() {
   const emailRef = useRef<HTMLInputElement>(null);
 
   const emailMissing = mailingList && !email.trim();
-  const canSubmit = questions.length > 0 && consent && !submitting;
+  const canSubmit = (questions.length > 0 || draft.trim().length > 0) && consent && !submitting;
 
   function focusEmail() {
     emailRef.current?.focus();
     emailRef.current?.scrollIntoView({ behavior: "smooth", block: "center" });
     if (emailRef.current) {
-      emailRef.current.style.borderColor = "#f0c040";
-      emailRef.current.style.boxShadow = "0 0 0 2px rgba(240,192,64,0.2)";
+      emailRef.current.style.borderColor = "rgba(180,140,0,0.6)";
+      emailRef.current.style.boxShadow = "0 0 0 2px rgba(180,140,0,0.12)";
       setTimeout(() => {
         if (emailRef.current) {
-          emailRef.current.style.borderColor = "rgba(255,255,255,0.15)";
+          emailRef.current.style.borderColor = "rgba(26,26,46,0.18)";
           emailRef.current.style.boxShadow = "none";
         }
       }, 2000);
@@ -114,7 +115,7 @@ export default function SubmissionForm() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          questions,
+          questions: draft.trim() ? [...questions, draft.trim()] : questions,
           role,
           roleCustom,
           country,
@@ -135,6 +136,7 @@ export default function SubmissionForm() {
         throw new Error(data.error || "Submission failed");
       }
 
+      setDraft("");
       setSubmitted(true);
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : "Something went wrong. Please try again.";
@@ -149,7 +151,7 @@ export default function SubmissionForm() {
       <section
         id="form-section"
         style={{
-          borderTop: "1px solid rgba(255,255,255,0.08)",
+          borderTop: "1px solid rgba(26,26,46,0.08)",
           padding: "80px 24px",
         }}
       >
@@ -159,13 +161,14 @@ export default function SubmissionForm() {
               width: "52px",
               height: "52px",
               borderRadius: "50%",
-              background: "rgba(240,192,64,0.12)",
-              border: "1px solid rgba(240,192,64,0.4)",
+              background: "rgba(180,140,0,0.1)",
+              border: "1px solid rgba(180,140,0,0.35)",
               display: "flex",
               alignItems: "center",
               justifyContent: "center",
               margin: "0 auto 28px",
               fontSize: "22px",
+              color: "#8a6800",
             }}
           >
             ✓
@@ -175,17 +178,17 @@ export default function SubmissionForm() {
               fontFamily: "Georgia, serif",
               fontWeight: 400,
               fontSize: "clamp(20px, 3vw, 28px)",
-              color: "#ffffff",
+              color: "#1a1a2e",
               margin: "0 0 20px",
             }}
           >
             {t("success.heading")}
           </h2>
-          <p style={{ fontSize: "16px", lineHeight: 1.7, color: "rgba(255,255,255,0.65)", margin: "0 0 12px" }}>
+          <p style={{ fontSize: "16px", lineHeight: 1.7, color: "rgba(26,26,46,0.82)", margin: "0 0 12px" }}>
             {t("success.p1")}
           </p>
           {mailingList && email && (
-            <p style={{ fontSize: "15px", lineHeight: 1.7, color: "rgba(255,255,255,0.5)", margin: 0 }}>
+            <p style={{ fontSize: "15px", lineHeight: 1.7, color: "rgba(26,26,46,0.5)", margin: 0 }}>
               {t("success.p2")}
             </p>
           )}
@@ -197,18 +200,22 @@ export default function SubmissionForm() {
   const selectStyle: React.CSSProperties = {
     ...inputStyle,
     cursor: "pointer",
-    backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='rgba(255,255,255,0.4)' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E")`,
+    backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='rgba(26,26,46,0.4)' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E")`,
     backgroundRepeat: "no-repeat",
     backgroundPosition: "right 14px center",
     paddingRight: "36px",
   };
 
+  const focusStyle = () => ({ borderColor: "rgba(180,140,0,0.55)" });
+  const blurStyle = () => ({ borderColor: "rgba(26,26,46,0.18)" });
+
   return (
     <section
       id="form-section"
       style={{
-        borderTop: "1px solid rgba(255,255,255,0.08)",
+        borderTop: "1px solid rgba(26,26,46,0.08)",
         padding: "80px 24px",
+        background: "#f2f0ea",
       }}
     >
       <div style={{ maxWidth: "640px", margin: "0 auto" }}>
@@ -219,7 +226,7 @@ export default function SubmissionForm() {
               fontSize: "11px",
               letterSpacing: "0.14em",
               textTransform: "uppercase",
-              color: "#f0c040",
+              color: "#8a6800",
             }}
           >
             {t("form.tag")}
@@ -230,7 +237,7 @@ export default function SubmissionForm() {
             fontFamily: "Georgia, serif",
             fontWeight: 400,
             fontSize: "clamp(22px, 3vw, 32px)",
-            color: "#ffffff",
+            color: "#1a1a2e",
             margin: "0 0 16px",
             lineHeight: 1.3,
           }}
@@ -241,7 +248,7 @@ export default function SubmissionForm() {
           style={{
             fontSize: "16px",
             lineHeight: 1.7,
-            color: "rgba(255,255,255,0.65)",
+            color: "rgba(26,26,46,0.82)",
             margin: "0 0 36px",
           }}
         >
@@ -254,7 +261,7 @@ export default function SubmissionForm() {
         </div>
 
         <form onSubmit={handleSubmit} noValidate>
-          {/* Honeypot — hidden from real users, bots fill it and get rejected */}
+          {/* Honeypot */}
           <input
             type="text"
             value={honeypot}
@@ -264,6 +271,7 @@ export default function SubmissionForm() {
             aria-hidden="true"
             style={{ position: "absolute", left: "-9999px", width: "1px", height: "1px", opacity: 0 }}
           />
+
           {/* Row 1: Role + Country */}
           <div
             style={{
@@ -278,17 +286,17 @@ export default function SubmissionForm() {
                 value={role}
                 onChange={(e) => setRole(e.target.value)}
                 style={selectStyle}
-                onFocus={(e) => { e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)"; }}
-                onBlur={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
+                onFocus={(e) => { Object.assign(e.currentTarget.style, focusStyle()); }}
+                onBlur={(e) => { Object.assign(e.currentTarget.style, blurStyle()); }}
               >
-                <option value="" disabled style={{ background: "#0f1f3a" }}>{t("form.rolePlaceholder")}</option>
-                <option value="Patient" style={{ background: "#0f1f3a" }}>{t("form.roleOptions.patient")}</option>
-                <option value="Caregiver / family member" style={{ background: "#0f1f3a" }}>{t("form.roleOptions.caregiver")}</option>
-                <option value="Nurse" style={{ background: "#0f1f3a" }}>{t("form.roleOptions.nurse")}</option>
-                <option value="Clinician" style={{ background: "#0f1f3a" }}>{t("form.roleOptions.clinician")}</option>
-                <option value="Researcher" style={{ background: "#0f1f3a" }}>{t("form.roleOptions.researcher")}</option>
-                <option value="Policy maker" style={{ background: "#0f1f3a" }}>{t("form.roleOptions.policyMaker")}</option>
-                <option value="Other" style={{ background: "#0f1f3a" }}>{t("form.roleOptions.other")}</option>
+                <option value="" disabled>{t("form.rolePlaceholder")}</option>
+                <option value="Patient">{t("form.roleOptions.patient")}</option>
+                <option value="Caregiver / family member">{t("form.roleOptions.caregiver")}</option>
+                <option value="Nurse">{t("form.roleOptions.nurse")}</option>
+                <option value="Clinician">{t("form.roleOptions.clinician")}</option>
+                <option value="Researcher">{t("form.roleOptions.researcher")}</option>
+                <option value="Policy maker">{t("form.roleOptions.policyMaker")}</option>
+                <option value="Other">{t("form.roleOptions.other")}</option>
               </select>
               {role === "Other" && (
                 <input
@@ -297,8 +305,8 @@ export default function SubmissionForm() {
                   onChange={(e) => setRoleCustom(e.target.value)}
                   placeholder={t("form.roleCustomPlaceholder")}
                   style={{ ...inputStyle, marginTop: "8px" }}
-                  onFocus={(e) => { e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)"; }}
-                  onBlur={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
+                  onFocus={(e) => { Object.assign(e.currentTarget.style, focusStyle()); }}
+                  onBlur={(e) => { Object.assign(e.currentTarget.style, blurStyle()); }}
                 />
               )}
             </Field>
@@ -308,12 +316,12 @@ export default function SubmissionForm() {
                 value={country}
                 onChange={(e) => setCountry(e.target.value)}
                 style={selectStyle}
-                onFocus={(e) => { e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)"; }}
-                onBlur={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
+                onFocus={(e) => { Object.assign(e.currentTarget.style, focusStyle()); }}
+                onBlur={(e) => { Object.assign(e.currentTarget.style, blurStyle()); }}
               >
-                <option value="" disabled style={{ background: "#0f1f3a" }}>{t("form.countryPlaceholder")}</option>
+                <option value="" disabled>{t("form.countryPlaceholder")}</option>
                 {EUROPEAN_COUNTRIES.map((c) => (
-                  <option key={c} value={c} style={{ background: "#0f1f3a" }}>{c}</option>
+                  <option key={c} value={c}>{c}</option>
                 ))}
               </select>
             </Field>
@@ -324,21 +332,36 @@ export default function SubmissionForm() {
             <Field label={t("form.languageLabel")}>
               <select
                 value={preferredLanguage}
-                onChange={(e) => setPreferredLanguage(e.target.value)}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setPreferredLanguage(val);
+                  // Switch UI language to match, same as the top-right switcher
+                  const langMap: Record<string, string> = {
+                    English: "en", German: "de", French: "fr", Italian: "it",
+                    Spanish: "es", Dutch: "nl", Polish: "pl", Swedish: "sv",
+                  };
+                  const code = langMap[val];
+                  if (code) {
+                    i18n.changeLanguage(code);
+                    if (typeof localStorage !== "undefined") {
+                      localStorage.setItem("luce_language", code);
+                    }
+                  }
+                }}
                 style={selectStyle}
-                onFocus={(e) => { e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)"; }}
-                onBlur={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
+                onFocus={(e) => { Object.assign(e.currentTarget.style, focusStyle()); }}
+                onBlur={(e) => { Object.assign(e.currentTarget.style, blurStyle()); }}
               >
-                <option value="" disabled style={{ background: "#0f1f3a" }}>{t("form.languagePlaceholder")}</option>
-                <option value="English" style={{ background: "#0f1f3a" }}>{t("form.languageOptions.en")}</option>
-                <option value="German" style={{ background: "#0f1f3a" }}>{t("form.languageOptions.de")}</option>
-                <option value="French" style={{ background: "#0f1f3a" }}>{t("form.languageOptions.fr")}</option>
-                <option value="Italian" style={{ background: "#0f1f3a" }}>{t("form.languageOptions.it")}</option>
-                <option value="Spanish" style={{ background: "#0f1f3a" }}>{t("form.languageOptions.es")}</option>
-                <option value="Dutch" style={{ background: "#0f1f3a" }}>{t("form.languageOptions.nl")}</option>
-                <option value="Polish" style={{ background: "#0f1f3a" }}>{t("form.languageOptions.pl")}</option>
-                <option value="Swedish" style={{ background: "#0f1f3a" }}>{t("form.languageOptions.sv")}</option>
-                <option value="Other" style={{ background: "#0f1f3a" }}>{t("form.languageOptions.other")}</option>
+                <option value="" disabled>{t("form.languagePlaceholder")}</option>
+                <option value="English">{t("form.languageOptions.en")}</option>
+                <option value="German">{t("form.languageOptions.de")}</option>
+                <option value="French">{t("form.languageOptions.fr")}</option>
+                <option value="Italian">{t("form.languageOptions.it")}</option>
+                <option value="Spanish">{t("form.languageOptions.es")}</option>
+                <option value="Dutch">{t("form.languageOptions.nl")}</option>
+                <option value="Polish">{t("form.languageOptions.pl")}</option>
+                <option value="Swedish">{t("form.languageOptions.sv")}</option>
+                <option value="Other">{t("form.languageOptions.other")}</option>
               </select>
             </Field>
           </div>
@@ -359,8 +382,8 @@ export default function SubmissionForm() {
                 onChange={(e) => setFirstName(e.target.value)}
                 placeholder={t("form.firstNamePlaceholder")}
                 style={inputStyle}
-                onFocus={(e) => { e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)"; }}
-                onBlur={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
+                onFocus={(e) => { Object.assign(e.currentTarget.style, focusStyle()); }}
+                onBlur={(e) => { Object.assign(e.currentTarget.style, blurStyle()); }}
               />
             </Field>
             <Field label={t("form.lastNameLabel")}>
@@ -370,13 +393,13 @@ export default function SubmissionForm() {
                 onChange={(e) => setLastName(e.target.value)}
                 placeholder={t("form.lastNamePlaceholder")}
                 style={inputStyle}
-                onFocus={(e) => { e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)"; }}
-                onBlur={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
+                onFocus={(e) => { Object.assign(e.currentTarget.style, focusStyle()); }}
+                onBlur={(e) => { Object.assign(e.currentTarget.style, blurStyle()); }}
               />
             </Field>
           </div>
 
-          {/* Row 3: Email full width */}
+          {/* Email */}
           <div style={{ marginBottom: "28px" }}>
             <Field label={t("form.emailLabel")}>
               <input
@@ -386,8 +409,8 @@ export default function SubmissionForm() {
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder={t("form.emailPlaceholder")}
                 style={inputStyle}
-                onFocus={(e) => { e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)"; }}
-                onBlur={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
+                onFocus={(e) => { Object.assign(e.currentTarget.style, focusStyle()); }}
+                onBlur={(e) => { Object.assign(e.currentTarget.style, blurStyle()); }}
               />
             </Field>
           </div>
@@ -395,14 +418,14 @@ export default function SubmissionForm() {
           {/* Divider */}
           <div
             style={{
-              borderTop: "1px solid rgba(255,255,255,0.08)",
+              borderTop: "1px solid rgba(26,26,46,0.1)",
               marginBottom: "28px",
             }}
           />
 
           {/* Questions */}
           <div style={{ marginBottom: "28px" }}>
-            <QuestionInput questions={questions} onChange={setQuestions} />
+            <QuestionInput questions={questions} onChange={setQuestions} draft={draft} onDraftChange={setDraft} />
           </div>
 
           {/* Anything else */}
@@ -419,8 +442,8 @@ export default function SubmissionForm() {
                   fontFamily: "inherit",
                   lineHeight: 1.6,
                 }}
-                onFocus={(e) => { e.currentTarget.style.borderColor = "rgba(240,192,64,0.5)"; }}
-                onBlur={(e) => { e.currentTarget.style.borderColor = "rgba(255,255,255,0.15)"; }}
+                onFocus={(e) => { Object.assign(e.currentTarget.style, focusStyle()); }}
+                onBlur={(e) => { Object.assign(e.currentTarget.style, blurStyle()); }}
               />
             </Field>
           </div>
@@ -447,7 +470,7 @@ export default function SubmissionForm() {
                   flexShrink: 0,
                 }}
               />
-              <span style={{ fontSize: "14px", lineHeight: 1.55, color: "rgba(255,255,255,0.65)" }}>
+              <span style={{ fontSize: "14px", lineHeight: 1.55, color: "rgba(26,26,46,0.82)" }}>
                 {t("form.mailingListLabel")}
               </span>
             </label>
@@ -458,9 +481,9 @@ export default function SubmissionForm() {
                   marginTop: "10px",
                   marginLeft: "28px",
                   fontSize: "13px",
-                  color: "rgba(240,192,64,0.9)",
-                  background: "rgba(240,192,64,0.08)",
-                  border: "1px solid rgba(240,192,64,0.25)",
+                  color: "#8a6800",
+                  background: "rgba(180,140,0,0.06)",
+                  border: "1px solid rgba(180,140,0,0.2)",
                   borderRadius: "3px",
                   padding: "8px 12px",
                 }}
@@ -472,7 +495,7 @@ export default function SubmissionForm() {
                   style={{
                     background: "none",
                     border: "none",
-                    color: "#f0c040",
+                    color: "#8a6800",
                     cursor: "pointer",
                     padding: 0,
                     fontSize: "13px",
@@ -508,11 +531,11 @@ export default function SubmissionForm() {
                   flexShrink: 0,
                 }}
               />
-              <span style={{ fontSize: "13px", lineHeight: 1.6, color: "rgba(255,255,255,0.6)" }}>
+              <span style={{ fontSize: "13px", lineHeight: 1.6, color: "rgba(26,26,46,0.6)" }}>
                 {t("form.consentLabel")}{" "}
                 <a
                   href="#"
-                  style={{ color: "#f0c040", textDecoration: "underline" }}
+                  style={{ color: "#8a6800", textDecoration: "underline" }}
                 >
                   {t("form.consentPrivacyLink")}
                 </a>
@@ -526,11 +549,11 @@ export default function SubmissionForm() {
               style={{
                 marginBottom: "16px",
                 padding: "10px 14px",
-                background: "rgba(220,80,60,0.1)",
-                border: "1px solid rgba(220,80,60,0.3)",
+                background: "rgba(200,60,40,0.06)",
+                border: "1px solid rgba(200,60,40,0.25)",
                 borderRadius: "3px",
                 fontSize: "13px",
-                color: "rgba(255,140,120,0.9)",
+                color: "rgba(180,40,20,0.9)",
               }}
             >
               {error}
@@ -544,8 +567,8 @@ export default function SubmissionForm() {
             style={{
               width: "100%",
               padding: "15px",
-              background: canSubmit ? "#f0c040" : "rgba(255,255,255,0.08)",
-              color: canSubmit ? "#0a1628" : "rgba(255,255,255,0.25)",
+              background: canSubmit ? "#f0c040" : "rgba(26,26,46,0.08)",
+              color: canSubmit ? "#1a1a2e" : "rgba(26,26,46,0.25)",
               border: "none",
               borderRadius: "3px",
               fontSize: "13px",
