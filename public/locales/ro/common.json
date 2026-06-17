@@ -7,7 +7,7 @@
     "tag": "Contribuția pacienților și a cuidatorilor — 2026",
     "headline": "Ajutați-ne să construim un asistent AI care înțelege cu adevărat cum să răspundă la întrebările pacienților",
     "headlineEmphasis": "înțelege cu adevărat",
-    "intro": "Lung Cancer Europe dezvoltă LuCE Chatbot — un asistent informațional bazat pe AI conceput special pentru pacienții cu cancer pulmonar și persoanele apropiate acestora. Pentru a construi ceva cu adevărat util, avem nevoie să vă ascultăm: ce întrebări sunt cele mai importante? Ce ați fi dorit să știți? Ce întrebări adresează de fapt pacienții și cuidatorii?",
+    "intro": "Lung Cancer Europe dezvoltă Lung Cancer Europe Chatbot — un asistent informațional bazat pe AI conceput special pentru pacienții cu cancer pulmonar și persoanele apropiate acestora. Pentru a construi ceva cu adevărat util, avem nevoie să vă ascultăm: ce întrebări sunt cele mai importante? Ce ați fi dorit să știți? Ce întrebări adresează de fapt pacienții și cuidatorii?",
     "cta": "Partajați-vă întrebările",
     "stat1Label": "Membri ai Consiliului Pacienților și Cuidatorilor",
     "stat1Value": "7",
@@ -22,7 +22,7 @@
     "heading": "De ce contează întrebările dumneavoastră",
     "p1": "Un diagnostic de cancer pulmonar aduce o nevoie imediată de a înțelege — ce înseamnă aceasta, ce urmează, ce să ceri doctorului. Dar consultațiile sunt scurte, internetul este copleșitor, și majoritatea informațiilor online nu au fost scrise pentru persoana care primește această veste astazi.",
     "p2": "Pacienții și cuidatorii caută răspunsuri clare și demne de încredere atât la întrebările fundamentale — despre diagnostic, stadializare și opțiuni de tratament — cât și la cele profund personale: efecte secundare, viața de zi cu zi, cum să vorbești cu familia, ce să soliciți la o consultație.",
-    "p3": "LuCE Chatbot este construit în jurul acestor întrebări — colectate direct de la pacienți, cuidatori și profesioniști din domeniul sănătății din toată Europa. Contribuția dumneavoastră modelează ceea ce va specializa asistentul nostru AI.",
+    "p3": "Lung Cancer Europe Chatbot este construit în jurul acestor întrebări — colectate direct de la pacienți, cuidatori și profesioniști din domeniul sănătății din toată Europa. Contribuția dumneavoastră modelează ceea ce va specializa asistentul nostru AI.",
     "readMore": "Citește mai mult",
     "readLess": "Citește mai puțin"
   },
@@ -36,7 +36,7 @@
     "step3Title": "Clinicienii validează răspunsurile",
     "step3Desc": "Experții medicali și apărătorii pacienților revizuiesc întrebările grupate și lucrează împreună pentru a dezvolta răspunsuri exacte, demne de încredere și accesibile.",
     "step4Title": "Chatbot-ul se lansează cu contribuția dumneavoastră la bază",
-    "step4Desc": "LuCE Chatbot se lansează cu o bază de cunoștințe construită din întrebări reale ale pacienților — nu din presupuneri. Contribuția dumneavoastră modelează ce cunoaște din prima zi."
+    "step4Desc": "Lung Cancer Europe Chatbot se lansează cu o bază de cunoștințe construită din întrebări reale ale pacienților — nu din presupuneri. Contribuția dumneavoastră modelează ce cunoaște din prima zi."
   },
   "form": {
     "tag": "Trimiteți-vă întrebările",
@@ -86,10 +86,10 @@
     "questionPlaceholder": "Scrieți întrebarea aici…",
     "addButton": "Adăugați",
     "removeQuestion": "Eliminați întrebarea",
-    "mailingListLabel": "Țineți-mă la curent despre LuCE Chatbot — aș dori să aud când se lansează și cum îl pot testa. Vă puteți dezabona oricând.",
+    "mailingListLabel": "Țineți-mă la curent despre Lung Cancer Europe Chatbot — aș dori să aud când se lansează și cum îl pot testa. Vă puteți dezabona oricând.",
     "mailingListEmailReminder": "Pentru a primi actualizări, vă rugăm adăugați adresa dumneavoastră de e-mail mai sus.",
     "mailingListEmailReminderLink": "adăugați adresa dumneavoastră de e-mail",
-    "consentLabel": "Înțeleg că întrebările mele și informațiile demografice de bază vor fi stocate în siguranță de Lung Cancer Europe și utilizate numai pentru a informa dezvoltarea LuCE Chatbot. Răspunsurile mele nu vor fi partajate public sau utilizate pentru nici un alt scop. Confirm că nu am inclus informații medicale personale în întrebările mele.",
+    "consentLabel": "Înțeleg că întrebările mele și informațiile demografice de bază vor fi stocate în siguranță de Lung Cancer Europe și utilizate numai pentru a informa dezvoltarea Lung Cancer Europe Chatbot. Răspunsurile mele nu vor fi partajate public sau utilizate pentru nici un alt scop. Confirm că nu am inclus informații medicale personale în întrebările mele.",
     "consentPrivacyLink": "Politica de confidențialitate",
     "submitButton": "TRIMITERE ÎNTREBĂRI",
     "submitting": "Se trimite…",
@@ -100,7 +100,7 @@
   },
   "success": {
     "heading": "Vă mulțumim pentru contribuție.",
-    "p1": "Întrebările dumneavoastră au fost trimise. Le vom revizui cu atenție și vor ajuta la modelarea a ceea ce LuCE Chatbot acoperă mai întâi.",
+    "p1": "Întrebările dumneavoastră au fost trimise. Le vom revizui cu atenție și vor ajuta la modelarea a ceea ce Lung Cancer Europe Chatbot acoperă mai întâi.",
     "p2": "Dacă v-ați optat pentru actualizări, vă vom contacta când chatbot-ul este gata pentru testare."
   },
   "footer": {

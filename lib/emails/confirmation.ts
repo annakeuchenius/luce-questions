@@ -14,7 +14,7 @@ export interface EmailStrings {
 // ─── English (source) ────────────────────────────────────────────────────────
 
 const en: EmailStrings = {
-  subject: "Thank you for contributing to the LuCE Chatbot",
+  subject: "Thank you for contributing to the Lung Cancer Europe Chatbot",
   greeting: "Hi {firstName} {lastName},",
   thankYou:
     "Thank you for taking the time to share your questions with us — it means a lot, and it will directly shape what we build.",

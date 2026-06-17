@@ -49,6 +49,7 @@ export default function Nav() {
 
       <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
         <span
+          className="lang-hint"
           style={{
             fontFamily: "'Segoe Script', 'Brush Script MT', 'Comic Sans MS', cursive",
             fontSize: "26px",
@@ -62,7 +63,7 @@ export default function Nav() {
         >
           pick your language
         </span>
-        <svg width="36" height="24" viewBox="0 0 36 24" fill="none" style={{ opacity: 0.85 }}>
+        <svg className="lang-hint" width="36" height="24" viewBox="0 0 36 24" fill="none" style={{ opacity: 0.85 }}>
           <path
             d="M2 18 Q18 2 32 12"
             stroke="#8a6800"

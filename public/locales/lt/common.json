@@ -7,7 +7,7 @@
     "tag": "Pacientų ir globėjų indėlis — 2026",
     "headline": "Padėkite mums sukurti dirbtinio intelekto asistentą, kuris tikrai supranta, kaip atsakyti į pacientų klausimus",
     "headlineEmphasis": "tikrai supranta",
-    "intro": "Lung Cancer Europe plėtoja LuCE Chatbot — AI pagrindu grindžtą informacijos asistentą, specialiai sukurtą plaučių vėžio pacientams ir jų artimiesiems. Norėdami sukurti kažką tikrai naudingo, turime išgirsti jūsus: kokie klausimai yra svarbiausi? Ko norėtumėte būti žinoję? Kokius klausimus iš tikrųjų kelia pacientai ir globėjai?",
+    "intro": "Lung Cancer Europe plėtoja Lung Cancer Europe Chatbot — AI pagrindu grindžtą informacijos asistentą, specialiai sukurtą plaučių vėžio pacientams ir jų artimiesiems. Norėdami sukurti kažką tikrai naudingo, turime išgirsti jūsus: kokie klausimai yra svarbiausi? Ko norėtumėte būti žinoję? Kokius klausimus iš tikrųjų kelia pacientai ir globėjai?",
     "cta": "Pasidalinkite savo klausimais",
     "stat1Label": "Pacientų ir globėjų tarybos nariai",
     "stat1Value": "7",
@@ -22,7 +22,7 @@
     "heading": "Kodėl jūsų klausimai yra svarbūs",
     "p1": "Plaučių vėžio diagnoza sukelia tiesioginę poreikį suprasti — ką tai reiškia, kas bus toliau, ką paklausti gydytojo. Tačiau konsultacijos yra trumpos, internetas yra perkrautas, ir dauguma interneto informacijos nebuvo parašyta žmogui, kuris šiandien gauna šią žinią.",
     "p2": "Pacientai ir globėjai ieško aiškių ir patikimų atsakymų tiek į pagrindinius klausimus — apie diagnozę, stadijų nustatymą ir gydymo variantus — tiek į labai asmeninius: šalutiniai reiškiniai, kasdieninis gyvenimas, kaip kalbėti su šeima, ką reikalauti pas gydytoją.",
-    "p3": "LuCE Chatbot yra kuriamas šiais klausimais paremtas — surinkti tiesiogiai iš pacientų, globėjų ir sveikatos apsaugos specialistų visoje Europoje. Jūsų indėlis formuoja tai, kuriame dirbtinis intelektas asistentui specializuosis.",
+    "p3": "Lung Cancer Europe Chatbot yra kuriamas šiais klausimais paremtas — surinkti tiesiogiai iš pacientų, globėjų ir sveikatos apsaugos specialistų visoje Europoje. Jūsų indėlis formuoja tai, kuriame dirbtinis intelektas asistentui specializuosis.",
     "readMore": "Skaityti daugiau",
     "readLess": "Skaityti mažiau"
   },
@@ -36,7 +36,7 @@
     "step3Title": "Klinikai patvirtina atsakymus",
     "step3Desc": "Medicinos ekspertai ir pacientų advokатai peržiūri sugrupuotus klausimus ir bendradarbiauja, kad sukurtų tikslius, patikimus ir prieinamus atsakymus.",
     "step4Title": "Chatbot paleidžiamas su jūsų indėliu jo širdyje",
-    "step4Desc": "LuCE Chatbot paleidžiamas su žinių baze, sukurta iš tikrų pacientų klausimų — ne prielaidų. Jūsų indėlis nuo pat pirmosios dienos formuoja tai, ką jis žino."
+    "step4Desc": "Lung Cancer Europe Chatbot paleidžiamas su žinių baze, sukurta iš tikrų pacientų klausimų — ne prielaidų. Jūsų indėlis nuo pat pirmosios dienos formuoja tai, ką jis žino."
   },
   "form": {
     "tag": "Pateikite savo klausimus",
@@ -86,10 +86,10 @@
     "questionPlaceholder": "Čia įrašykite savo klausimą…",
     "addButton": "Pridėti",
     "removeQuestion": "Pašalinti klausimą",
-    "mailingListLabel": "Prašau mane informuoti apie LuCE Chatbot — norėčiau sužinoti, kada jis bus paleistas ir kaip jį testuoti. Galite bet kada atsisakyti prenumeratos.",
+    "mailingListLabel": "Prašau mane informuoti apie Lung Cancer Europe Chatbot — norėčiau sužinoti, kada jis bus paleistas ir kaip jį testuoti. Galite bet kada atsisakyti prenumeratos.",
     "mailingListEmailReminder": "Norėdami gauti atnaujinimus, prašome aukščiau pridėti savo el. pašto adresą.",
     "mailingListEmailReminderLink": "pridėkite savo el. pašto adresą",
-    "consentLabel": "Aš suprantu, kad mano klausimai ir pagrindinė demografinė informacija bus saugiai saugomi Lung Cancer Europe ir naudojami tik LuCE Chatbot plėtojimui. Mano atsakymai nebus viešai pasidalinti arba naudojami jokiam kitam tikslui. Patvirtinu, kad nesu įtraukęs jokios asmeninės medicininės informacijos į savo klausimus.",
+    "consentLabel": "Aš suprantu, kad mano klausimai ir pagrindinė demografinė informacija bus saugiai saugomi Lung Cancer Europe ir naudojami tik Lung Cancer Europe Chatbot plėtojimui. Mano atsakymai nebus viešai pasidalinti arba naudojami jokiam kitam tikslui. Patvirtinu, kad nesu įtraukęs jokios asmeninės medicininės informacijos į savo klausimus.",
     "consentPrivacyLink": "Privatumo politika",
     "submitButton": "PATEIKTI MANO KLAUSIMUS",
     "submitting": "Siunčiama…",
@@ -100,7 +100,7 @@
   },
   "success": {
     "heading": "Ačiū už jūsų indėlį.",
-    "p1": "Jūsų klausimai buvo pateikti. Mes juos atidžiai peržiūrėsime, ir jie padės nustatyti, ką LuCE Chatbot pirmiausia aprėps.",
+    "p1": "Jūsų klausimai buvo pateikti. Mes juos atidžiai peržiūrėsime, ir jie padės nustatyti, ką Lung Cancer Europe Chatbot pirmiausia aprėps.",
     "p2": "Jei sutikote gauti atnaujinimus, mes susisiekime su jumis, kai chatbot bus pasirengęs testavimui."
   },
   "footer": {

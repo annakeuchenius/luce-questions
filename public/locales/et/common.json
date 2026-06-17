@@ -7,7 +7,7 @@
     "tag": "Patsientide ja hooldajate sisend — 2026",
     "headline": "Aita meil luua tehisintellekti assistent, kes tõeliselt mõistab, kuidas vastata patsientide küsimustele",
     "headlineEmphasis": "tõeliselt mõistab",
-    "intro": "Lung Cancer Europe arendab LuCE Chatbotit — tehisintellektil põhinevat infooasistenti, mis on spetsiaalselt loodud kopsuvähiga patsientidele ja nende lähedastele. Millegi tõeliselt kasuliku loomiseks peame kuulma teilt: millised küsimused on kõige olulisemad? Mida sooviksite te olnud teadnud? Mida patsientid ja hooldajad tegelikult küsivad?",
+    "intro": "Lung Cancer Europe arendab Lung Cancer Europe Chatbotit — tehisintellektil põhinevat infooasistenti, mis on spetsiaalselt loodud kopsuvähiga patsientidele ja nende lähedastele. Millegi tõeliselt kasuliku loomiseks peame kuulma teilt: millised küsimused on kõige olulisemad? Mida sooviksite te olnud teadnud? Mida patsientid ja hooldajad tegelikult küsivad?",
     "cta": "Jaga oma küsimusi",
     "stat1Label": "Patsientide ja hooldajate nõukogu liikmed",
     "stat1Value": "7",
@@ -22,7 +22,7 @@
     "heading": "Miks on teie küsimused olulised",
     "p1": "Kopsuvähi diagnoos tekitab kohese vajaduse mõista — mida see tähendab, mis tuleb järgmiseks, mida küsida arstilt. Kuid konsultatsioonid on lühikesed, internet on üleküllastunud ja enamus veebist leiduv teave pole kirjutatud inimesele, kes istub praegu selle uudisega.",
     "p2": "Patsientid ja hooldajad otsivad selgeid ja usaldusväärseteid vastuseid nii põhiküsimustele — diagnoos, staging ja ravivalikud — kui ka isiklikult oluliste küsimuste kohta: kõrvaltoimed, igapäevane elu, kuidas perekonnaga rääkida, mille eest võitleda vastuvõtul.",
-    "p3": "LuCE Chatbot on ehitatud nende küsimuste ümber — otse kogutud patsientidelt, hooldajatelt ja tervishoiutöötajatelt kogu Euroopas. Teie panus kujundab, mida meie tehisintellekti assistent spetsialiseerub.",
+    "p3": "Lung Cancer Europe Chatbot on ehitatud nende küsimuste ümber — otse kogutud patsientidelt, hooldajatelt ja tervishoiutöötajatelt kogu Euroopas. Teie panus kujundab, mida meie tehisintellekti assistent spetsialiseerub.",
     "readMore": "Loe rohkem",
     "readLess": "Loe vähem"
   },
@@ -36,7 +36,7 @@
     "step3Title": "Kliinikusid valideerivad vastused",
     "step3Desc": "Meditsiiniline ekspertide ja patsiendiadvokaatide rühm vaatavad üle rühmitatud küsimused ja töötavad koostöös täpsete, usaldusväärset ja juurdepääsetavate vastuste väljatöötamisel.",
     "step4Title": "Chatbot käivitatakse teie sisendiga selle tuumaks",
-    "step4Desc": "LuCE Chatbot käivitatakse teadmusbaasiga, mis on ehitatud päris patsientide küsimustele — mitte oletustele. Teie panus kujundab seda, mida see esimesest päevast peale teab."
+    "step4Desc": "Lung Cancer Europe Chatbot käivitatakse teadmusbaasiga, mis on ehitatud päris patsientide küsimustele — mitte oletustele. Teie panus kujundab seda, mida see esimesest päevast peale teab."
   },
   "form": {
     "tag": "Esitage oma küsimused",
@@ -86,10 +86,10 @@
     "questionPlaceholder": "Tippige oma küsimus siin…",
     "addButton": "Lisa",
     "removeQuestion": "Eemalda küsimus",
-    "mailingListLabel": "Hoidke mind kursis LuCE Chatboti arengu kohta — tahaksin teada, millal see käivitatakse ja kuidas seda testida. Saate tellimuse igal ajal tühistada.",
+    "mailingListLabel": "Hoidke mind kursis Lung Cancer Europe Chatboti arengu kohta — tahaksin teada, millal see käivitatakse ja kuidas seda testida. Saate tellimuse igal ajal tühistada.",
     "mailingListEmailReminder": "Värskenduste saamiseks lisage ülal oma e-posti aadress.",
     "mailingListEmailReminderLink": "lisage oma e-posti aadress",
-    "consentLabel": "Mõistan, et minu küsimused ja põhilised demograafilised andmed salvestatakse turvaliselt Lung Cancer Europe poolt ja kasutatakse ainult LuCE Chatboti arendamise teavitamiseks. Minu vastuseid ei jagata avalikult ega kasutata muul eesmärgil. Kinnitasin, et ma ei ole oma küsimustesse lisanud mingeid isiklikke meditsiinilisi andmeid.",
+    "consentLabel": "Mõistan, et minu küsimused ja põhilised demograafilised andmed salvestatakse turvaliselt Lung Cancer Europe poolt ja kasutatakse ainult Lung Cancer Europe Chatboti arendamise teavitamiseks. Minu vastuseid ei jagata avalikult ega kasutata muul eesmärgil. Kinnitasin, et ma ei ole oma küsimustesse lisanud mingeid isiklikke meditsiinilisi andmeid.",
     "consentPrivacyLink": "Privaatsuspoliitika",
     "submitButton": "ESITA MINU KÜSIMUSED",
     "submitting": "Esitamine…",
@@ -100,7 +100,7 @@
   },
   "success": {
     "heading": "Täname teid panuse eest.",
-    "p1": "Teie küsimused on esitatud. Me vaatame neid hoolikalt üle ja need aitavad kujundada, mida LuCE Chatbot esmajoones katab.",
+    "p1": "Teie küsimused on esitatud. Me vaatame neid hoolikalt üle ja need aitavad kujundada, mida Lung Cancer Europe Chatbot esmajoones katab.",
     "p2": "Kui olete värskenduste jaoks sisse logitud, võtame teiega ühendust, kui chatbot on testida valmis."
   },
   "footer": {

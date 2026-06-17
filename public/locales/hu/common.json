@@ -7,7 +7,7 @@
     "tag": "Beteg- és gondozó vélemény — 2026",
     "headline": "Segítsd nekünk olyan MI asszisztenst fejleszteni, amely valóban megérti, hogyan válaszoljon a betegek kérdéseire",
     "headlineEmphasis": "valóban megérti",
-    "intro": "A Lung Cancer Europe fejleszti a LuCE Chatbotot — egy MI-alapú információs asszisztenst, amely kifejezetten tüdőrákos betegek és hozzátartozóik számára készült. Ahhoz, hogy valóban hasznos legyen, hallnunk kell önről: mely kérdések fontosak a legjobban? Mit szeretnél volna tudni már előbb? Mit kérdeznek valójában a betegek és gondozók?",
+    "intro": "A Lung Cancer Europe fejleszti a Lung Cancer Europe Chatbotot — egy MI-alapú információs asszisztenst, amely kifejezetten tüdőrákos betegek és hozzátartozóik számára készült. Ahhoz, hogy valóban hasznos legyen, hallnunk kell önről: mely kérdések fontosak a legjobban? Mit szeretnél volna tudni már előbb? Mit kérdeznek valójában a betegek és gondozók?",
     "cta": "Oszd meg kérdéseidet",
     "stat1Label": "Beteg- és gondozó board tagok",
     "stat1Value": "7",
@@ -22,7 +22,7 @@
     "heading": "Miért fontosak a te kérdéseid",
     "p1": "A tüdőrák diagnózisa azonnali megértési igényt hoz — mit jelent ez, mi következik, mit kérdezzek az orvostól. De a konzultációk rövek, az internet túlterhelt, és a legtöbb online információ nem azoknak az embereknek készült, akik most kapták meg ezt a hírt.",
     "p2": "A betegek és gondozók világos és megbízható válaszokat keresnek az alapvető kérdésekre — a diagnózisról, a stádiumozásról és a kezelési lehetőségekről — valamint a mélyen személyes kérdésekre: mellékhatások, mindennapi élet, hogyan beszélj a családdal, mit követelj meg egy konzultáción.",
-    "p3": "A LuCE Chatbot ezekre a kérdésekre épül — közvetlenül betegektől, gondozóktól és egészségügyi szakemberektől gyűjtött információk alapján az egész Európában. A te hozzájárulásod alakítja, hogy az MI asszisztensünk miben fog specializálódni.",
+    "p3": "A Lung Cancer Europe Chatbot ezekre a kérdésekre épül — közvetlenül betegektől, gondozóktól és egészségügyi szakemberektől gyűjtött információk alapján az egész Európában. A te hozzájárulásod alakítja, hogy az MI asszisztensünk miben fog specializálódni.",
     "readMore": "Tovább olvasom",
     "readLess": "Kevesebbet olvasom"
   },
@@ -36,7 +36,7 @@
     "step3Title": "Klinikusok érvényesítik a válaszokat",
     "step3Desc": "Orvosi szakértők és beteg-képviselők áttekintik a csoportosított kérdéseket, és együttesen dolgoznak ki pontos, megbízható és hozzáférhető válaszokat.",
     "step4Title": "A chatbot indulása — te vagy a középpontban",
-    "step4Desc": "A LuCE Chatbot olyan tudásbázissal indul, amely valódi beteg kérdésekből épül fel — nem feltételezésekből. A te hozzájárulásod alakítja, mit tud az első naptól fogva."
+    "step4Desc": "A Lung Cancer Europe Chatbot olyan tudásbázissal indul, amely valódi beteg kérdésekből épül fel — nem feltételezésekből. A te hozzájárulásod alakítja, mit tud az első naptól fogva."
   },
   "form": {
     "tag": "Kérdéseid beküldése",
@@ -86,10 +86,10 @@
     "questionPlaceholder": "Írd be a kérdésed ide…",
     "addButton": "Hozzáadás",
     "removeQuestion": "Kérdés eltávolítása",
-    "mailingListLabel": "Tartson kapcsolatot velem a LuCE Chatbottal kapcsolatban — szeretném megtudni, mikor indul és hogyan tesztelhetem. Bármikor leiratkozhat.",
+    "mailingListLabel": "Tartson kapcsolatot velem a Lung Cancer Europe Chatbottal kapcsolatban — szeretném megtudni, mikor indul és hogyan tesztelhetem. Bármikor leiratkozhat.",
     "mailingListEmailReminder": "A frissítések vételéhez kérjük, add hozzá az e-mail címedet fent.",
     "mailingListEmailReminderLink": "add hozzá az e-mail címedet",
-    "consentLabel": "Megértem, hogy a kérdéseim és alapvető demográfiai információim biztonságosan tárolva lesznek a Lung Cancer Europe által és kizárólag a LuCE Chatbot fejlesztésének tájékoztatására fognak szolgálni. A válaszaimat nem osztják meg nyilvánosan és nem használják egyéb célokra. Megerősítem, hogy nem tettem személyes orvosi adatokat a kérdésekeimbe.",
+    "consentLabel": "Megértem, hogy a kérdéseim és alapvető demográfiai információim biztonságosan tárolva lesznek a Lung Cancer Europe által és kizárólag a Lung Cancer Europe Chatbot fejlesztésének tájékoztatására fognak szolgálni. A válaszaimat nem osztják meg nyilvánosan és nem használják egyéb célokra. Megerősítem, hogy nem tettem személyes orvosi adatokat a kérdésekeimbe.",
     "consentPrivacyLink": "Adatvédelmi szabályzat",
     "submitButton": "KÉRDÉSEIM BEKÜLDÉSE",
     "submitting": "Beküldés…",
@@ -100,7 +100,7 @@
   },
   "success": {
     "heading": "Köszönjük a hozzájárulásodat.",
-    "p1": "A kérdéseid beküldésre kerültek. Gondosan áttekintjük őket, és segítségükkel meghatározzuk, mit takar majd a LuCE Chatbot először.",
+    "p1": "A kérdéseid beküldésre kerültek. Gondosan áttekintjük őket, és segítségükkel meghatározzuk, mit takar majd a Lung Cancer Europe Chatbot először.",
     "p2": "Ha regisztráltál a frissítésekre, akkor felvesszük veled a kapcsolatot, amikor a chatbot tesztelésre kész."
   },
   "footer": {

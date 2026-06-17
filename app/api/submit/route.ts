@@ -89,13 +89,16 @@ export async function POST(req: NextRequest) {
     );
 
     // Send confirmation email if the user provided an address
+    console.log("[email] email field value:", JSON.stringify(email));
     if (email) {
       try {
+        console.log("[email] attempting send to:", email, "from:", FROM);
         const resend = new Resend(process.env.RESEND_API_KEY);
+        const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
         const { subject, html, text } = getConfirmationEmail({
           language: uiLanguage,
-          firstName,
-          lastName,
+          firstName: firstName ? capitalize(firstName) : firstName,
+          lastName: lastName ? capitalize(lastName) : lastName,
           mailingListOptIn,
         });
 
@@ -107,9 +110,10 @@ export async function POST(req: NextRequest) {
           html,
           text,
         });
+        console.log("[email] sent successfully");
       } catch (emailErr) {
         // Never fail the submission because of an email error — just log it
-        console.error("Confirmation email failed:", emailErr);
+        console.error("[email] Confirmation email failed:", emailErr);
       }
     }
 

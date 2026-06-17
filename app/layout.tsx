@@ -3,7 +3,7 @@ import "./globals.css";
 import I18nProvider from "@/components/I18nProvider";
 
 export const metadata: Metadata = {
-  title: "LuCE Chatbot — Share Your Questions",
+  title: "Lung Cancer Europe Chatbot — Share Your Questions",
   description:
     "Help Lung Cancer Europe build an AI assistant for patients and caregivers by sharing the questions that matter to you.",
 };

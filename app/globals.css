@@ -47,6 +47,13 @@ textarea::placeholder {
   background: rgba(240, 192, 64, 0.35);
 }
 
+/* Hide language picker hint on mobile */
+@media (max-width: 600px) {
+  .lang-hint {
+    display: none !important;
+  }
+}
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

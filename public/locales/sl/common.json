@@ -7,7 +7,7 @@
     "tag": "Prispevek pacientov in negovalcev — 2026",
     "headline": "Pomagajte nam graditi AI asistenta, ki resnično razume, kako odgovarjati na vprašanja pacientov",
     "headlineEmphasis": "resnično razume",
-    "intro": "Lung Cancer Europe razvija LuCE Chatbot — AI-pogonjen informacijski asistent, namenjen posebej pacientom z rakom na pljučih in njihovim bližnjim. Če želimo graditi nekaj resnično uporabnega, moramo slišati od vas: katera vprašanja so najpomembnejša? Kaj bi si želeli, da bi prej vedeli? Kaj se pacientov in negovalcev dejansko sprašuje?",
+    "intro": "Lung Cancer Europe razvija Lung Cancer Europe Chatbot — AI-pogonjen informacijski asistent, namenjen posebej pacientom z rakom na pljučih in njihovim bližnjim. Če želimo graditi nekaj resnično uporabnega, moramo slišati od vas: katera vprašanja so najpomembnejša? Kaj bi si želeli, da bi prej vedeli? Kaj se pacientov in negovalcev dejansko sprašuje?",
     "cta": "Delite svoja vprašanja",
     "stat1Label": "Člani Odbora pacientov in negovalcev",
     "stat1Value": "7",
@@ -22,7 +22,7 @@
     "heading": "Zakaj so vaša vprašanja pomembna",
     "p1": "Diagnoza raka na pljučih prinaša takojšno potrebo razumevanja — kaj to pomeni, kaj sledi, kaj vprašati zdravnika. Vendar so naročila kratka, internet je preplavljujoč, in večina spletnih informacij ni bila napisana za osebo, ki je danes sedela s to novico.",
     "p2": "Pacienti in negovalci iščejo jasne in zanesljive odgovore tako na osnovna vprašanja — o diagnozi, stadiju in možnostih zdravljenja — kot na globoko osebna vprašanja: neželeni učinki, vsakdanje življenje, kako pogovoriti se s družino, na kaj pritisniti med obdolženo.",
-    "p3": "LuCE Chatbot je grajen okrog teh vprašanj — zbranih neposredno od pacientov, negovalcev in zdravstvenih strokovnjakov po celi Evropi. Vaš prispevek oblikuje, v čem se bo AI asistent specializiral.",
+    "p3": "Lung Cancer Europe Chatbot je grajen okrog teh vprašanj — zbranih neposredno od pacientov, negovalcev in zdravstvenih strokovnjakov po celi Evropi. Vaš prispevek oblikuje, v čem se bo AI asistent specializiral.",
     "readMore": "Preberi več",
     "readLess": "Preberi manj"
   },
@@ -36,7 +36,7 @@
     "step3Title": "Klinični strokovnjaki potrdijo odgovore",
     "step3Desc": "Medicinski strokovnjaki in zagovorniki pacientov pregleda razvrščena vprašanja in skupaj razvijejo natančne, zanesljive in dostopne odgovore.",
     "step4Title": "Chatbot se zaganja z vašim prispevkom v jedru",
-    "step4Desc": "LuCE Chatbot se zaganja z bazo znanja, zgrajeno iz resničnih vprašanj pacientov — ne iz predpostavk. Vaš prispevek oblikuje, kaj ve od prvega dne."
+    "step4Desc": "Lung Cancer Europe Chatbot se zaganja z bazo znanja, zgrajeno iz resničnih vprašanj pacientov — ne iz predpostavk. Vaš prispevek oblikuje, kaj ve od prvega dne."
   },
   "form": {
     "tag": "Pošljite svoja vprašanja",
@@ -86,10 +86,10 @@
     "questionPlaceholder": "Vnos vprašanja tukaj…",
     "addButton": "Dodaj",
     "removeQuestion": "Odstrani vprašanje",
-    "mailingListLabel": "Obdržite me posodobljeno o LuCE Chatbotu — rad bi se izvedel, kdaj se zaganja in kako ga preizkusiti. Odjavite se lahko kadarkoli.",
+    "mailingListLabel": "Obdržite me posodobljeno o Lung Cancer Europe Chatbotu — rad bi se izvedel, kdaj se zaganja in kako ga preizkusiti. Odjavite se lahko kadarkoli.",
     "mailingListEmailReminder": "Za prejemanje posodobitev prosimo dodajte svoj e-poštni naslov zgoraj.",
     "mailingListEmailReminderLink": "dodajte svoj e-poštni naslov",
-    "consentLabel": "Razumem, da bodo moja vprašanja in osnovni demografski podatki varno shranjeni pri Lung Cancer Europe in uporabljeni samo za oblikovanje LuCE Chatbota. Moji odgovori ne bodo javno deljeni ali uporabljeni za noben drugi namen. Potvrjujem, da nisem vključil nobenih osebnih zdravstvenih informacij v moja vprašanja.",
+    "consentLabel": "Razumem, da bodo moja vprašanja in osnovni demografski podatki varno shranjeni pri Lung Cancer Europe in uporabljeni samo za oblikovanje Lung Cancer Europe Chatbota. Moji odgovori ne bodo javno deljeni ali uporabljeni za noben drugi namen. Potvrjujem, da nisem vključil nobenih osebnih zdravstvenih informacij v moja vprašanja.",
     "consentPrivacyLink": "Politika zasebnosti",
     "submitButton": "POŠLJI SVOJA VPRAŠANJA",
     "submitting": "Pošiljam…",
@@ -100,7 +100,7 @@
   },
   "success": {
     "heading": "Hvala za vaš prispevek.",
-    "p1": "Vaša vprašanja so bila poslana. Pregleda jih bomo natančno in pomagala bodo oblikovati, kaj LuCE Chatbot najprej pokriva.",
+    "p1": "Vaša vprašanja so bila poslana. Pregleda jih bomo natančno in pomagala bodo oblikovati, kaj Lung Cancer Europe Chatbot najprej pokriva.",
     "p2": "Če ste se prijavili za posodobitve, vas bomo kontaktirali, ko bo chatbot pripravljen za preizkušanje."
   },
   "footer": {

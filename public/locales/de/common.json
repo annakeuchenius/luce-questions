@@ -7,7 +7,7 @@
     "tag": "Patientinnen-, Patienten- und Angehörigenfeedback — 2026",
     "headline": "Helfen Sie uns, einen KI-Assistenten zu entwickeln, der wirklich versteht, wie man Patientenfragen beantwortet",
     "headlineEmphasis": "wirklich versteht",
-    "intro": "Lung Cancer Europe entwickelt den LuCE Chatbot — einen KI-gestützten Informationsassistenten, der speziell für Lungenkrebspatientinnen und -patienten sowie ihre nahestehenden Personen konzipiert ist. Um etwas wirklich Nützliches zu schaffen, möchten wir von Ihnen hören: Welche Fragen sind am wichtigsten? Was hätten Sie gerne früher gewusst? Was fragen Patientinnen, Patienten und Angehörige wirklich?",
+    "intro": "Lung Cancer Europe entwickelt den Lung Cancer Europe Chatbot — einen KI-gestützten Informationsassistenten, der speziell für Lungenkrebspatientinnen und -patienten sowie ihre nahestehenden Personen konzipiert ist. Um etwas wirklich Nützliches zu schaffen, möchten wir von Ihnen hören: Welche Fragen sind am wichtigsten? Was hätten Sie gerne früher gewusst? Was fragen Patientinnen, Patienten und Angehörige wirklich?",
     "cta": "Teilen Sie Ihre Fragen",
     "stat1Label": "Mitglieder des Patienten- und Angehörigenbeirats",
     "stat1Value": "7",
@@ -22,7 +22,7 @@
     "heading": "Warum Ihre Fragen wichtig sind",
     "p1": "Eine Lungenkrebsdiagnose bringt das unmittelbare Bedürfnis mit sich zu verstehen — was das bedeutet, was als nächstes kommt, was man den Arzt oder die Ärztin fragen sollte. Aber Konsultationen sind kurz, das Internet ist überwältigend, und die meisten Online-Informationen wurden nicht für die Person geschrieben, die heute mit dieser Nachricht sitzt.",
     "p2": "Patientinnen, Patienten und Angehörige suchen nach klaren und vertrauenswürdigen Antworten auf grundlegende Fragen — zur Diagnose, Stadieneinteilung und Behandlungsmöglichkeiten — sowie auf zutiefst persönliche: Nebenwirkungen, Alltag, wie man mit der Familie spricht, wofür man sich in einem Termin einsetzen sollte.",
-    "p3": "Der LuCE Chatbot wird um diese Fragen herum entwickelt — direkt von Patientinnen, Patienten, Angehörigen und medizinischen Fachkräften in ganz Europa gesammelt. Ihr Beitrag prägt, worauf sich unser KI-Assistent spezialisiert.",
+    "p3": "Der Lung Cancer Europe Chatbot wird um diese Fragen herum entwickelt — direkt von Patientinnen, Patienten, Angehörigen und medizinischen Fachkräften in ganz Europa gesammelt. Ihr Beitrag prägt, worauf sich unser KI-Assistent spezialisiert.",
     "readMore": "Mehr lesen",
     "readLess": "Weniger lesen"
   },
@@ -36,7 +36,7 @@
     "step3Title": "Kliniker validieren die Antworten",
     "step3Desc": "Medizinische Fachleute und Patientenvertreter überprüfen die gesammelten Fragen und entwickeln zusammen genaue, vertrauenswürdige und verständliche Antworten.",
     "step4Title": "Der Chatbot startet mit Ihrem Beitrag im Kern",
-    "step4Desc": "Der LuCE Chatbot startet mit einer Wissensdatenbank, die auf echten Patientenfragen basiert — nicht auf Annahmen. Ihr Beitrag prägt sein Wissen von Tag eins an."
+    "step4Desc": "Der Lung Cancer Europe Chatbot startet mit einer Wissensdatenbank, die auf echten Patientenfragen basiert — nicht auf Annahmen. Ihr Beitrag prägt sein Wissen von Tag eins an."
   },
   "form": {
     "tag": "Reichen Sie Ihre Fragen ein",
@@ -86,10 +86,10 @@
     "questionPlaceholder": "Geben Sie Ihre Frage hier ein…",
     "addButton": "Hinzufügen",
     "removeQuestion": "Frage entfernen",
-    "mailingListLabel": "Halten Sie mich über den LuCE Chatbot auf dem Laufenden — ich möchte erfahren, wann er startet und wie ich ihn testen kann. Sie können sich jederzeit abmelden.",
+    "mailingListLabel": "Halten Sie mich über den Lung Cancer Europe Chatbot auf dem Laufenden — ich möchte erfahren, wann er startet und wie ich ihn testen kann. Sie können sich jederzeit abmelden.",
     "mailingListEmailReminder": "Um Updates zu erhalten, fügen Sie bitte Ihre E-Mail-Adresse oben ein.",
     "mailingListEmailReminderLink": "fügen Sie Ihre E-Mail-Adresse ein",
-    "consentLabel": "Ich verstehe, dass meine Fragen und grundlegende demografische Informationen von Lung Cancer Europe sicher gespeichert und ausschließlich zur Unterstützung der Entwicklung des LuCE Chatbot verwendet werden. Meine Antworten werden nicht öffentlich geteilt oder für andere Zwecke verwendet. Ich bestätige, dass ich keine persönlichen medizinischen Informationen in meine Fragen aufgenommen habe.",
+    "consentLabel": "Ich verstehe, dass meine Fragen und grundlegende demografische Informationen von Lung Cancer Europe sicher gespeichert und ausschließlich zur Unterstützung der Entwicklung des Lung Cancer Europe Chatbot verwendet werden. Meine Antworten werden nicht öffentlich geteilt oder für andere Zwecke verwendet. Ich bestätige, dass ich keine persönlichen medizinischen Informationen in meine Fragen aufgenommen habe.",
     "consentPrivacyLink": "Datenschutzrichtlinie",
     "submitButton": "MEINE FRAGEN EINREICHEN",
     "submitting": "Wird eingereicht…",
@@ -100,7 +100,7 @@
   },
   "success": {
     "heading": "Danke für Ihren Beitrag.",
-    "p1": "Ihre Fragen wurden eingereicht. Wir werden sie sorgfältig überprüfen und sie werden prägen, was der LuCE Chatbot zunächst abdeckt.",
+    "p1": "Ihre Fragen wurden eingereicht. Wir werden sie sorgfältig überprüfen und sie werden prägen, was der Lung Cancer Europe Chatbot zunächst abdeckt.",
     "p2": "Wenn Sie sich für Updates angemeldet haben, werden wir uns bei Ihnen melden, wenn der Chatbot zum Testen bereit ist."
   },
   "footer": {
