@@ -98,14 +98,14 @@ const pl: EmailStrings = {
 // ─── Spanish ─────────────────────────────────────────────────────────────────
 
 const es: EmailStrings = {
-  subject: "Gracias por contribuir al chatbot de LuCE",
+  subject: "Gracias por contribuir al Chatbot de LuCE",
   greeting: "Hola {firstName} {lastName},",
   thankYou:
-    "Gracias por tomarte el tiempo de compartir tus preguntas con nosotros — significa mucho y dará forma directamente a lo que construyamos.",
+    "Gracias por dedicar tu tiempo a compartir tus preguntas con nosotros. Lo valoramos mucho, ya que nos ayudarán a dar forma a lo que estamos construyendo.",
   mailingListUpdate:
-    "Has optado por recibir actualizaciones sobre el proyecto. Estaremos en contacto a medida que avancen las cosas — nuestro objetivo es un lanzamiento de prueba en noviembre, durante el Mes de Concienciación sobre el Cáncer de Pulmón.",
+    "Has elegido recibir actualizaciones sobre el proyecto, por lo que te mantendremos informado a medida que avancemos. Nuestro objetivo es lanzar una versión piloto en noviembre, coincidiendo con el Mes de Concienciación sobre el Cáncer de Pulmón.",
   followUs:
-    "Síguenos en {linkedin} e {instagram} para conocer las noticias de Lung Cancer Europe, incluidas las actualizaciones sobre el asistente de IA.",
+    "También puedes seguirnos en {linkedin} e {instagram} para estar al día de las novedades de Lung Cancer Europe, incluidas las actualizaciones sobre el asistente de IA.",
   signOff: "Un cordial saludo,<br><br>Anna Keuchenius en nombre del equipo del chatbot<br>Lung Cancer Europe",
 };
 

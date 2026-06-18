@@ -5,9 +5,9 @@
   },
   "hero": {
     "tag": "Aportación de Pacientes y Cuidadores — 2026",
-    "headline": "Ayúdanos a crear un asistente de IA que realmente entienda cómo responder las preguntas de los pacientes con cáncer de pulmón",
-    "headlineEmphasis": "realmente entienda",
-    "intro": "Lung Cancer Europe, la red europea líder de organizaciones de pacientes con cáncer de pulmón, está desarrollando un chatbot de cáncer de pulmón — un asistente de información impulsado por IA diseñado específicamente para pacientes con cáncer de pulmón y sus seres cercanos. Para crear algo genuinamente útil, necesitamos escucharte: ¿qué preguntas son las más importantes? ¿Qué hubieras deseado saber? ¿Qué preguntan realmente los pacientes y cuidadores?",
+    "headline": "Ayúdanos a crear un asistente de IA que realmente sepa cómo responder las preguntas de las personas con cáncer de pulmón y sus familias",
+    "headlineEmphasis": "realmente sepa",
+    "intro": "Lung Cancer Europe, la red europea líder de organizaciones de pacientes con cáncer de pulmón, está desarrollando un chatbot de cáncer de pulmón — un asistente de información impulsado por IA diseñado específicamente para personas con cáncer de pulmón y sus seres queridos. Para crear algo que sea realmente útil, queremos escucharte: ¿qué preguntas son las más importantes? ¿Qué hubieras deseado saber? ¿Cuáles son las principales dudas de los pacientes y cuidadores?",
     "cta": "Comparte tus preguntas",
     "stat1Label": "Miembros de la Junta de Pacientes y Cuidadores",
     "stat1Value": "7",
@@ -20,9 +20,9 @@
   "about": {
     "tag": "Acerca de este proyecto",
     "heading": "Por qué tus preguntas importan",
-    "p1": "Un diagnóstico de cáncer de pulmón genera una necesidad inmediata de entender — qué significa esto, qué viene después, qué preguntar al médico. Pero las consultas son cortas, Internet es abrumador, e la mayoría de la información en línea no fue escrita para la persona que recibe esta noticia hoy.",
-    "p2": "Los pacientes y cuidadores buscan respuestas claras y confiables tanto para las preguntas fundamentales — sobre diagnóstico, estadificación y opciones de tratamiento — como para las profundamente personales: efectos secundarios, vida diaria, cómo hablar con la familia, qué insistir en una cita.",
-    "p3": "El chatbot de cáncer de pulmón (¡nombre próximamente!) se está construyendo alrededor de esas preguntas — recopiladas directamente de pacientes, cuidadores y profesionales sanitarios de toda Europa. Tu aportación da forma a aquello en lo que nuestro asistente de IA se especializará.",
+    "p1": "Un diagnóstico de cáncer de pulmón suele ir acompañado de una necesidad de entender qué significa esta enfermedad, qué viene después o qué preguntar al equipo médico. Pero las consultas médicas son cortas, Internet es abrumador y la mayoría de la información online no está escrita para quienes viven con esta enfermedad.",
+    "p2": "Los pacientes y cuidadores buscan respuestas claras y fiables tanto a las preguntas fundamentales — sobre el diagnóstico, la estadificación o las opciones de tratamiento — como a aquellas más personales: los efectos secundarios, la vida diaria, cómo hablar con la familia o qué aspectos abordar durante la consulta médica.",
+    "p3": "El chatbot de cáncer de pulmón (el nombre de la herramienta se presentará próximamente) se está desarrollando a partir de esas preguntas, recopiladas directamente de pacientes, cuidadores y profesionales sanitarios de toda Europa. Tu aportación contribuirá a definir los temas en los que nuestro asistente de IA podrá ofrecer información y apoyo especializados.",
     "readMore": "Leer más",
     "readLess": "Leer menos"
   },
